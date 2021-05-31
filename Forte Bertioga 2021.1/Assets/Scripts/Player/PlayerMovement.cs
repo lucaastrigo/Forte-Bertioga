@@ -26,12 +26,13 @@ public class PlayerMovement : MonoBehaviour
 
             if(Physics.Raycast(ponto, out hit, Mathf.Infinity))
             {
+                if (hit.transform.tag == "Chao") transform.position = hit.point;
+
                 if (hit.transform.gameObject.GetComponent<MiniGameAccess>() != null)
                 {
                     hit.transform.gameObject.GetComponent<MiniGameAccess>().AccessMinigame();
                 }
-
-                transform.position = hit.point;
+               
             }
         }
     }
