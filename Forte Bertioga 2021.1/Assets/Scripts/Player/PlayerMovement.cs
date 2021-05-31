@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -23,11 +24,11 @@ public class PlayerMovement : MonoBehaviour
             Ray ponto = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
-            if(Physics.Raycast(ponto, out hit, 1000))
+            if(Physics.Raycast(ponto, out hit, Mathf.Infinity))
             {
-                if(hit.gameObject.GetComponent<MiniGameAccess>() != null)
+                if (hit.transform.gameObject.GetComponent<MiniGameAccess>() != null)
                 {
-                    hit.gameObject.GetComponent<MiniGameAccess>().AccessMinigame();
+                    hit.transform.gameObject.GetComponent<MiniGameAccess>().AccessMinigame();
                 }
 
                 transform.position = hit.point;
