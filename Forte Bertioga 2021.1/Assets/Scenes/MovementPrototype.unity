@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 758630019}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -378,7 +378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a0c499046c1da5499b4ad51b500b4d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sceneName: SampleScene
 --- !u!65 &1682095370
 BoxCollider:
   m_ObjectHideFlags: 0
