@@ -25,10 +25,13 @@ public class PlayerMovement : MonoBehaviour
 
             if(Physics.Raycast(ponto, out hit, 1000))
             {
+                if(hit.gameObject.GetComponent<MiniGameAccess>() != null)
+                {
+                    hit.gameObject.GetComponent<MiniGameAccess>().AccessMinigame();
+                }
 
                 transform.position = hit.point;
             }
         }
-        //
     }
 }
