@@ -69,3 +69,17 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+*.log
+Forte Bertioga 2021.1/Library/ArtifactDB
+Forte Bertioga 2021.1/Library/EditorInstance.json
+Forte Bertioga 2021.1/Library/SceneVisibilityState.asset
+Forte Bertioga 2021.1/Library/SourceAssetDB
+Forte Bertioga 2021.1/Logs/AssetImportWorker0-prev.log
+Forte Bertioga 2021.1/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+Forte Bertioga 2021.1/Temp/UnityLockfile
+Forte Bertioga 2021.1/Temp/workerlic
+Forte Bertioga 2021.1/Library/ArtifactDB
+Forte Bertioga 2021.1/Library/SourceAssetDB
+Forte Bertioga 2021.1/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+*.log
+Forte Bertioga 2021.1/Library/ArtifactDB
