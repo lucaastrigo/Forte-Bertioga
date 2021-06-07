@@ -7,6 +7,7 @@ public class CanhaoUI : MonoBehaviour
 {
     public float shootCooldown;
     public float potenciaMin, potenciaMax;
+    [Range(0, 1)] public float sliderSpeed;
     public GameObject shootButton;
     public GameObject bullet;
     public Transform bocaCanhao;
@@ -42,11 +43,11 @@ public class CanhaoUI : MonoBehaviour
 
         if (aumentando)
         {
-            potenciaAtual += Time.deltaTime;
+            potenciaAtual += Time.deltaTime * sliderSpeed;
         }
         else
         {
-            potenciaAtual -= Time.deltaTime;
+            potenciaAtual -= Time.deltaTime * sliderSpeed;
         }
     }
 
@@ -55,9 +56,8 @@ public class CanhaoUI : MonoBehaviour
         if (canFire)
         {
             time = shootCooldown;
-            bullet.GetComponent<BolaCanhao>().potencia = potenciaAtual;
-            Instantiate(bullet, bocaCanhao.position, bocaCanhao.rotation);
-            print(potenciaAtual);
+            GameObject bo = Instantiate(bullet, bocaCanhao.position, bocaCanhao.rotation);
+            bo.GetComponent<BolaCanhao>().potencia = potenciaAtual;
         }
     }
 }

@@ -16,4 +16,19 @@ public class BolaCanhao : MonoBehaviour
     {
         transform.Translate(Vector3.forward * potencia * speedModifier);
     }
+
+    void OnCollisionEnter(Collision other)
+    {
+        if(other.gameObject.GetComponent<Barril>() != null)
+        {
+            if (other.gameObject.GetComponent<Barril>().barrilCerto)
+            {
+                CanhaoGLOBAL.barrisCertos++;
+            }
+            else
+            {
+                CanhaoGLOBAL.barrisErrados++;
+            }
+        }
+    }
 }
