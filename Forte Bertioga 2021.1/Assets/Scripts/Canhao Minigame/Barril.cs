@@ -13,17 +13,20 @@ public class Barril : MonoBehaviour
     void Start()
     {
         m = GetComponent<Renderer>().material;
+        //Destroy(gameObject, 5f);
     }
 
     void Update()
     {
         if (barrilCerto)
         {
-            m.color = Color.cyan;
+            m.color = Color.red;
+
         }
         else
         {
-            m.color = Color.red;
+            m.color = Color.cyan;
+
         }
 
         if (vaiPraEsquerda)
@@ -34,5 +37,10 @@ public class Barril : MonoBehaviour
         {
             transform.Translate(Vector3.right * Time.deltaTime * horizontalSpeed);
         }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        
     }
 }

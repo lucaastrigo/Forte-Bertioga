@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using TMPro;
 
 public class CanhaoUI : MonoBehaviour
 {
     public float shootCooldown;
     public float potenciaMin, potenciaMax;
     [Range(0, 1)] public float sliderSpeed;
+
+
     public GameObject shootButton;
     public GameObject bullet;
     public Transform bocaCanhao;
