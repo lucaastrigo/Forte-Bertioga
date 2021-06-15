@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LampCandle_Unlit
+  m_Shader: {fileID: -6465566751694194690, guid: cb0ce485d31e7444ea4f5a816564c627, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_47ADF642:
+        m_Texture: {fileID: 2800000, guid: 9aade9ea830f5f643bbda242892eba38, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_9A43E68E:
+        m_Texture: {fileID: 2800000, guid: 6af6af66416f6c44283de369b38c692e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1EFC80B3: 0.02
+    - Vector1_6A886847: 0.02
+    - Vector1_6F74CB3B: 1
+    m_Colors:
+    - Color_769DEF9A: {r: 1, g: 0.1856428, b: 0, a: 0}
+    - Color_C325ED6F: {r: 2.670157, g: 1.340314, b: 0.1989529, a: 1}
+    - Color_C3F7465B: {r: 0, g: 0.02905467, b: 0.7264151, a: 0}
+  m_BuildTextureStacks: []

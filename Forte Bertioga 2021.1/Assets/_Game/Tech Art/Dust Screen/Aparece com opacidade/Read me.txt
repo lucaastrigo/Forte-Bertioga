@@ -1,0 +1,1 @@
+fiz o efeito em três PNGs pra que a equipe pudesse ter mais controle da aparição do efeito, talvez fazê-los aparecer em diferentes velocidades e opacidades
