@@ -83,3 +83,9 @@ Forte Bertioga 2021.1/Library/SourceAssetDB
 Forte Bertioga 2021.1/Logs/shadercompiler-UnityShaderCompiler.exe0.log
 *.log
 Forte Bertioga 2021.1/Library/ArtifactDB
+
+# FMOD 1.10.x (Legacy)
+/Assets/FMODAssets/
+/Assets/FMODStudioCache.meta
+/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
+/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset.meta
