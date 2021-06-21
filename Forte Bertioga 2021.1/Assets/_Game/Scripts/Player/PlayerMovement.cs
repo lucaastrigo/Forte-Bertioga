@@ -7,17 +7,22 @@ using UnityEngine.AI;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public float speedCamera;
     public SpriteRenderer sprite;
     public Animator anim;
     public GameObject camera;
 
+    private bool zoom;
+
     NavMeshAgent agent;
+    Camera cam;
 
     Vector3 mousePos;
 
     void Start()
     {
         agent = GetComponentInChildren<NavMeshAgent>();
+        cam = camera.GetComponent<Camera>();
     }
 
     void Update()
@@ -62,6 +67,15 @@ public class PlayerMovement : MonoBehaviour
                
             }
         }
+
+        //if(zoom & cam.orthographicSize >= 7.5f)
+        //{
+        //    cam.orthographicSize -= Time.deltaTime * speedCamera;
+        //} 
+        if(!zoom & cam.orthographicSize <= 15)
+        {
+            cam.orthographicSize += Time.deltaTime * speedCamera;
+        }
     }
 
     // on trigger enter
@@ -74,7 +88,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Room"))
         {
-            camera.GetComponent<Camera>().ortographicSize = 7.5f;
+            cam.orthographicSize = 7.5f;
+            zoom = true;
         }
     }
 
@@ -82,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Room"))
         {
-            camera.GetComponent<Camera>().ortographicSize = 15;
+            zoom = false;
         }
     }
 }
