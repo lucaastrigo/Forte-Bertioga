@@ -58,6 +58,7 @@ public class CanhaoUI : MonoBehaviour
     {
         if (canFire)
         {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/canhao/sfx_canhao_tiro", transform.position);
             time = shootCooldown;
             GameObject bo = Instantiate(bullet, bocaCanhao.position, bocaCanhao.rotation);
             bo.GetComponent<BolaCanhao>().potencia = potenciaAtual;

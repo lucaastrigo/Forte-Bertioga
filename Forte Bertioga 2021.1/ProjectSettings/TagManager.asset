@@ -7,6 +7,7 @@ TagManager:
   - Chao
   - Canhao
   - Bala
+  - Room
   layers:
   - Default
   - TransparentFX

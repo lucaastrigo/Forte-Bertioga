@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public SpriteRenderer sprite;
     public Animator anim;
+    public GameObject camera;
 
     NavMeshAgent agent;
 
@@ -60,6 +61,28 @@ public class PlayerMovement : MonoBehaviour
                 }
                
             }
+        }
+    }
+
+    // on trigger enter
+    // if game obj that triggered player is a ROOM (tag)
+    // camera zooms in
+
+    // if player is not inside any room, camera zooms out
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Room"))
+        {
+            camera.GetComponent<Camera>().ortographicSize = 7.5f;
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Room"))
+        {
+            camera.GetComponent<Camera>().ortographicSize = 15;
         }
     }
 }
