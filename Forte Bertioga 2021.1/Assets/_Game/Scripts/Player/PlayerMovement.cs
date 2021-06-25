@@ -27,25 +27,47 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if(agent.velocity.x != 0)
+        if (agent.steeringTarget.x > transform.localPosition.x)
+        {
+            anim.SetBool("walk", false);
+            anim.SetBool("walkUp", true);
+        }
+        else if (agent.steeringTarget.x < transform.localPosition.x)
         {
             anim.SetBool("walk", true);
+            anim.SetBool("walkUp", false);
+        }
 
-            if(agent.velocity.x > 0)
+        
+        if (agent.steeringTarget.z > transform.position.z)
+        {
+            //sprite.flipX = false; //esq
+        }
+        else if (agent.steeringTarget.z < transform.position.z)
+        {
+            //sprite.flipX = true; //dir
+        }
+        
+
+        if (agent.velocity.z != 0)
+        {
+            /*
+            if(agent.velocity.z > 0)
             {
                 sprite.flipX = false;
             }
-            else if(agent.velocity.x < 0)
+            else if(agent.velocity.z < 0)
             {
                 sprite.flipX = true;
-            }
+            }*/
         }
         else
         {
-            anim.SetBool("walk", false);
+            anim.SetBool("walk", false); //walk down
+            anim.SetBool("walkUp", false);
         }
 
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             //mousePos = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
            
