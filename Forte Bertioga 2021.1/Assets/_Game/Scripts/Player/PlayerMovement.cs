@@ -27,45 +27,75 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (agent.steeringTarget.x > transform.localPosition.x)
+        print(agent.velocity.x + "X");
+        print(agent.velocity.z + "Z");
+        //print(agent.steeringTarget.x);
+
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            agent.velocity = Vector3.zero;
+            agent.isStopped = true;
+        }
+
+        if (agent.steeringTarget.z > transform.position.z && agent.steeringTarget.x < transform.position.x)
+        {
+            EsquerdaSprite();
+            if (agent.steeringTarget.z > transform.position.z)
+            {
+                WalkUp();
+            }
+            if (agent.steeringTarget.x < transform.position.x)
+            {
+                WalkDown();
+            }
+        }
+        else if (agent.steeringTarget.z < transform.position.z && agent.steeringTarget.x > transform.position.x)
+        {
+            DireitaSprite();
+            if (agent.steeringTarget.z < transform.position.z)
+            {
+                WalkUp();
+            }
+            if (agent.steeringTarget.x > transform.position.x)
+            {
+                WalkDown();
+            }
+        }
+
+        if (agent.steeringTarget.x > transform.position.x && agent.steeringTarget.z > transform.position.z)
+        {
+            WalkUp();
+            if(agent.velocity.x > 3)
+            {
+                DireitaSprite();
+            }
+            else
+            {
+                EsquerdaSprite();
+            }
+        }
+        else if (agent.steeringTarget.x < transform.position.x && agent.steeringTarget.z < transform.position.z)
+        {
+            WalkDown();
+            if (agent.velocity.z < -3)
+            {
+                DireitaSprite();
+            }
+            else
+            {
+                EsquerdaSprite();
+            }
+        }
+
+
+
+
+        if (agent.velocity == Vector3.zero)
         {
             anim.SetBool("walk", false);
-            anim.SetBool("walkUp", true);
-        }
-        else if (agent.steeringTarget.x < transform.localPosition.x)
-        {
-            anim.SetBool("walk", true);
             anim.SetBool("walkUp", false);
         }
 
-        
-        if (agent.steeringTarget.z > transform.position.z)
-        {
-            //sprite.flipX = false; //esq
-        }
-        else if (agent.steeringTarget.z < transform.position.z)
-        {
-            //sprite.flipX = true; //dir
-        }
-        
-
-        if (agent.velocity.z != 0)
-        {
-            /*
-            if(agent.velocity.z > 0)
-            {
-                sprite.flipX = false;
-            }
-            else if(agent.velocity.z < 0)
-            {
-                sprite.flipX = true;
-            }*/
-        }
-        else
-        {
-            anim.SetBool("walk", false); //walk down
-            anim.SetBool("walkUp", false);
-        }
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -100,11 +130,25 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    // on trigger enter
-    // if game obj that triggered player is a ROOM (tag)
-    // camera zooms in
+    void WalkDown()
+    {
+        anim.SetBool("walk", true);
+        anim.SetBool("walkUp", false);
+    } 
+    void WalkUp()
+    {
+        anim.SetBool("walkUp", true);
+        anim.SetBool("walk", false);
+    }
+    void DireitaSprite()
+    {
+        sprite.flipX = true; //dir
+    }
+    void EsquerdaSprite()
+    {
+        sprite.flipX = false; //esq
+    }
 
-    // if player is not inside any room, camera zooms out
 
     void OnTriggerEnter(Collider other)
     {
