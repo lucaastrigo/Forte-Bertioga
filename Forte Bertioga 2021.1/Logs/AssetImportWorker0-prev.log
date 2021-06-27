@@ -15,11 +15,11 @@ D:/Unity/Forte-Bertioga/Forte Bertioga 2021.1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59169
+62574
 Successfully changed project path to: D:/Unity/Forte-Bertioga/Forte Bertioga 2021.1
 D:/Unity/Forte-Bertioga/Forte Bertioga 2021.1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 81.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 82.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,82 +35,28 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002634 seconds.
+Registered in 0.005765 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 62.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.870 seconds
+- Completed reload, in  2.162 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002836 seconds.
+Registered in 0.002978 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001E9F39FE540 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F3502A70 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F84F07B0 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F8FF3070 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F3121020 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F9003680 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F7C51430 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F3459570 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F3B40010 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F900C090 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F32B8600 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F365C030 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F3270200 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\FMODUnityResonanceEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F7D5C310 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F3502A70 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F359E140 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F348AA10 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F870F900 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F3502A70 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F8886620 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\FMODUnity.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F7D77020 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F3502890 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F3692660 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F3C67500 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F34E8420 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\FMODUnityEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F32DED40 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\FMODUnityResonance.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F7D77020 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 66.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 61.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -118,139 +64,125 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.228 seconds
+- Completed reload, in  1.310 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.4 MB.
-System memory in use after: 63.6 MB.
+System memory in use before: 65.5 MB.
+System memory in use after: 63.7 MB.
 
-Unloading 95 unused Assets to reduce memory usage. Loaded Objects now: 2910.
-Total: 4.499200 ms (FindLiveObjects: 0.443200 ms CreateObjectMapping: 0.178100 ms MarkObjects: 2.510800 ms  DeleteObjects: 1.364700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/NavMeshComponents/Scripts
-  artifactKey: Guid(ce138f3bd105d8049b1020fee879265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMeshComponents/Scripts using Guid(ce138f3bd105d8049b1020fee879265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f572dafc6d10f7d2f3182e39d99edd87') in 0.026716 seconds
-  Import took 0.031740 seconds .
+Unloading 95 unused Assets to reduce memory usage. Loaded Objects now: 2911.
+Total: 6.354400 ms (FindLiveObjects: 0.313200 ms CreateObjectMapping: 0.084500 ms MarkObjects: 4.470300 ms  DeleteObjects: 1.484300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.517013 seconds.
-  path: Assets/NavMeshComponents/Scripts/NavMeshLink.cs
-  artifactKey: Guid(fd3f0c8df3e6f2f41a45b75127c00b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMeshComponents/Scripts/NavMeshLink.cs using Guid(fd3f0c8df3e6f2f41a45b75127c00b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128faac90655f4ee7ff08167fc645734') in 0.038397 seconds
-  Import took 0.043256 seconds .
+  path: Assets/TerrainData_39d99f73-9a42-4c4d-ab2f-199f3c2764e4.asset
+  artifactKey: Guid(e39c90f90448d2a4facc583d85de0827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_39d99f73-9a42-4c4d-ab2f-199f3c2764e4.asset using Guid(e39c90f90448d2a4facc583d85de0827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc032f62950d489e2e53248c0b57f203') in 0.064028 seconds
+  Import took 0.075591 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.605070 seconds.
-  path: Assets/NavMeshComponents/Scripts/NavMeshModifier.cs
-  artifactKey: Guid(6d07ce676d7afda4dabb3b0f7dd5e654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMeshComponents/Scripts/NavMeshModifier.cs using Guid(6d07ce676d7afda4dabb3b0f7dd5e654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c343740fe576af2e821e720c0a29cb03') in 0.009369 seconds
-  Import took 0.013786 seconds .
+  Time since last request: 0.000266 seconds.
+  path: Assets/TerrainData_eb60ec48-1817-4e62-a6f4-1c1f389c07bb.asset
+  artifactKey: Guid(42c5c5670e26d944a9f9aa171d9a2256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_eb60ec48-1817-4e62-a6f4-1c1f389c07bb.asset using Guid(42c5c5670e26d944a9f9aa171d9a2256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ade67a794d0acd592276937edd59d03') in 0.012776 seconds
+  Import took 0.018299 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.924963 seconds.
-  path: Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs
-  artifactKey: Guid(2777bba7e4e7c6f4681e3ea77eef5438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs using Guid(2777bba7e4e7c6f4681e3ea77eef5438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17540720df4710eae603cb43f3477f7c') in 0.012407 seconds
-  Import took 0.017748 seconds .
+  Time since last request: 0.000221 seconds.
+  path: Assets/TerrainData_599b48b3-c84d-4eb9-9060-d60219f4059a.asset
+  artifactKey: Guid(c121b581b05999c478dea3633554c075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_599b48b3-c84d-4eb9-9060-d60219f4059a.asset using Guid(c121b581b05999c478dea3633554c075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb753b7bf4c79c2360cfb95698d6e55') in 0.028745 seconds
+  Import took 0.034474 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.593727 seconds.
-  path: Assets/NavMeshComponents/Scripts/NavMeshSurface.cs
-  artifactKey: Guid(3df27b9289d1e8c4fb82e0df4f4673ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMeshComponents/Scripts/NavMeshSurface.cs using Guid(3df27b9289d1e8c4fb82e0df4f4673ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a15e10ddac1919055d34bf2ba63906') in 0.012642 seconds
-  Import took 0.018185 seconds .
+  Time since last request: 0.000219 seconds.
+  path: Assets/TerrainData_e07e5370-2981-4da1-b92c-59287419ab17.asset
+  artifactKey: Guid(10ebe6a8c9e13e340b90749d783f1a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_e07e5370-2981-4da1-b92c-59287419ab17.asset using Guid(10ebe6a8c9e13e340b90749d783f1a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1836748d16ec7b0c5939b141901cea7') in 0.019863 seconds
+  Import took 0.026782 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.197591 seconds.
-  path: Assets/NavMeshComponents/Scripts/NavMeshSurface.cs
-  artifactKey: Guid(3df27b9289d1e8c4fb82e0df4f4673ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMeshComponents/Scripts/NavMeshSurface.cs using Guid(3df27b9289d1e8c4fb82e0df4f4673ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a15e10ddac1919055d34bf2ba63906') in 0.002799 seconds
-  Import took 0.008306 seconds .
+  Time since last request: 0.000191 seconds.
+  path: Assets/TerrainData_d376679c-b42d-4cdc-ac92-53ac094f658e.asset
+  artifactKey: Guid(7c3db92d4de332144861fca1e1fee36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_d376679c-b42d-4cdc-ac92-53ac094f658e.asset using Guid(7c3db92d4de332144861fca1e1fee36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e2192451a72d3c375b0d52f5ff8f2e') in 0.015605 seconds
+  Import took 0.020864 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3532.350805 seconds.
-  path: Assets/_Game/Materials/Player.mat
-  artifactKey: Guid(ba97fca3a6cf6fb49976348d8c58eef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Materials/Player.mat using Guid(ba97fca3a6cf6fb49976348d8c58eef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee6ab732fd21d0cfb4fa46695e97305') in 0.369448 seconds
-  Import took 0.384597 seconds .
+  Time since last request: 0.000245 seconds.
+  path: Assets/TerrainData_a627b8f1-b26a-4f79-bda9-bb0ffe7b553f.asset
+  artifactKey: Guid(48b4ec25fe4baca4cbb75a25ba3e75f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_a627b8f1-b26a-4f79-bda9-bb0ffe7b553f.asset using Guid(48b4ec25fe4baca4cbb75a25ba3e75f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be6936b40b7c7d9249550ce58d4afd6') in 0.019496 seconds
+  Import took 0.026118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/TerrainData_1577ff95-ec3c-477e-9942-8a55af3fb3e9.asset
+  artifactKey: Guid(2c13f4f1cfaf23d49992d3f98461ec60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_1577ff95-ec3c-477e-9942-8a55af3fb3e9.asset using Guid(2c13f4f1cfaf23d49992d3f98461ec60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8ba76dca2706ee4e1debe0539c39fc') in 0.011030 seconds
+  Import took 0.018215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/TerrainData_7e42e659-1f5b-45ea-ac9f-4724902de410.asset
+  artifactKey: Guid(e7ea2923cfffbad4ebbaa419aa1cf3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_7e42e659-1f5b-45ea-ac9f-4724902de410.asset using Guid(e7ea2923cfffbad4ebbaa419aa1cf3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bb3e9e1b337e0c7a902adbed115351') in 0.015092 seconds
+  Import took 0.020614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/TerrainData_15a3516a-bbf0-4dee-bd1d-6f9b704aaaf9.asset
+  artifactKey: Guid(853d6f96b2fa68747b02d2fa7ea2fb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_15a3516a-bbf0-4dee-bd1d-6f9b704aaaf9.asset using Guid(853d6f96b2fa68747b02d2fa7ea2fb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fb1698796e8945dbdfc0e04f23baf0') in 0.022636 seconds
+  Import took 0.029732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/TerrainData_c32c2653-5ff5-4a79-a87f-990da08b1009.asset
+  artifactKey: Guid(697f631230b3059468e9836e2c16be19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_c32c2653-5ff5-4a79-a87f-990da08b1009.asset using Guid(697f631230b3059468e9836e2c16be19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f526f67bb8bfac1b573514dc98018c0') in 0.023999 seconds
+  Import took 0.031168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/TerrainData_19d40ebe-0b6a-4565-bb04-60a70fae38a8.asset
+  artifactKey: Guid(2a3e441cf48239748bb6d6c9ff22c3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_19d40ebe-0b6a-4565-bb04-60a70fae38a8.asset using Guid(2a3e441cf48239748bb6d6c9ff22c3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f24c344d0163b3e30c9898388b780ec') in 0.013298 seconds
+  Import took 0.018925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8535978e7351306423906c2aa705cdd7') in 0.013210 seconds
+  Import took 0.018632 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004112 seconds.
+Registered in 0.004537 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001E9F90B3010 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9FBEC9230 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F84F07B0 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F9041210 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9FD8D68C0 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F39B44F0 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F39B44F0 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F3AB7050 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F32C8D10 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F7DB3240 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9FD2870C0 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F80A5020 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9FB752D20 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\FMODUnityResonanceEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F32A5010 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9FBEC9B90 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F89DE010 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9FD90B260 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9FA72F060 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9FBECB5D0 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F377F030 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\FMODUnity.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F7D23700 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9FBECA4F0 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F39B44F0 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9FD6C6010 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F39B44F0 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\FMODUnityEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9F3447380 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\FMODUnityResonance.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E9FA72F060 doesn't match image D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -258,20 +190,59 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.255 seconds
+- Completed reload, in  1.264 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 756 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.8 MB.
-System memory in use after: 81.1 MB.
+Unloading 766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.6 MB.
+System memory in use after: 77.4 MB.
 
-Unloading 90 unused Assets to reduce memory usage. Loaded Objects now: 2990.
-Total: 4.370900 ms (FindLiveObjects: 0.364000 ms CreateObjectMapping: 0.075400 ms MarkObjects: 2.550600 ms  DeleteObjects: 1.378400 ms)
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 2927.
+Total: 5.982100 ms (FindLiveObjects: 0.746400 ms CreateObjectMapping: 0.343600 ms MarkObjects: 3.557900 ms  DeleteObjects: 1.332100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003549 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.621 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.6 MB.
+System memory in use after: 77.4 MB.
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 2929.
+Total: 8.432800 ms (FindLiveObjects: 0.786800 ms CreateObjectMapping: 0.449900 ms MarkObjects: 5.898100 ms  DeleteObjects: 1.294600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 113.038389 seconds.
+  path: Assets/_Game/Scripts/Player/Player.physicMaterial
+  artifactKey: Guid(67328ac376154ff4d9b09bddb2cd9f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Scripts/Player/Player.physicMaterial using Guid(67328ac376154ff4d9b09bddb2cd9f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6219a20c0efc500ca4ab443491792f9') in 0.028330 seconds
+  Import took 0.036541 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
