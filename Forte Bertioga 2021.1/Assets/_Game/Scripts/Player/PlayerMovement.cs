@@ -159,7 +159,7 @@ public class PlayerMovement : MonoBehaviour
 
             if(other.GetComponent<Room>() != null)
             {
-                other.other.GetComponent<Room>().EnterRoom();
+                other.GetComponent<Room>().EnterRoom();
             }
         }
     }
@@ -172,7 +172,7 @@ public class PlayerMovement : MonoBehaviour
 
             if (other.GetComponent<Room>() != null)
             {
-                other.other.GetComponent<Room>().ExitRoom();
+                other.GetComponent<Room>().ExitRoom();
             }
         }
     }
