@@ -156,6 +156,11 @@ public class PlayerMovement : MonoBehaviour
         {
             cam.orthographicSize = 7.5f;
             zoom = true;
+
+            if(other.GetComponent<Room>() != null)
+            {
+                other.other.GetComponent<Room>().EnterRoom();
+            }
         }
     }
 
@@ -164,6 +169,11 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.CompareTag("Room"))
         {
             zoom = false;
+
+            if (other.GetComponent<Room>() != null)
+            {
+                other.other.GetComponent<Room>().ExitRoom();
+            }
         }
     }
 }
