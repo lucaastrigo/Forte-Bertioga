@@ -27,8 +27,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        print(agent.velocity.x + "X");
-        print(agent.velocity.z + "Z");
         //print(agent.steeringTarget.x);
 
         if(Input.GetKeyDown(KeyCode.F))
@@ -154,12 +152,41 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Room"))
         {
-            cam.orthographicSize = 7.5f;
-            zoom = true;
+            Room scriptRoom = other.GetComponent<Room>();
 
-            if(other.GetComponent<Room>() != null)
+         
+            
+
+            if(scriptRoom != null)
             {
-                other.GetComponent<Room>().EnterRoom();
+                scriptRoom.EnterRoom();
+
+                if (scriptRoom.hasZoom)
+                {
+                    cam.orthographicSize = 7.5f;
+                    zoom = true;
+                }
+            }
+        }
+    }
+    void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.CompareTag("Room"))
+        {
+            Room scriptRoom = other.GetComponent<Room>();
+
+
+
+
+            if (scriptRoom != null)
+            {
+                scriptRoom.EnterRoom();
+
+                if (scriptRoom.hasZoom)
+                {
+                    cam.orthographicSize = 7.5f;
+                    zoom = true;
+                }
             }
         }
     }
@@ -168,11 +195,16 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Room"))
         {
-            zoom = false;
+            Room scriptRoom = other.GetComponent<Room>();
 
-            if (other.GetComponent<Room>() != null)
+            if (scriptRoom != null)
             {
-                other.GetComponent<Room>().ExitRoom();
+                scriptRoom.ExitRoom();
+
+                if (scriptRoom.hasZoom)
+                {
+                    zoom = false;
+                }
             }
         }
     }
