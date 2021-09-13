@@ -8,6 +8,7 @@ TagManager:
   - Canhao
   - Bala
   - Room
+  - Minigame
   layers:
   - Default
   - TransparentFX

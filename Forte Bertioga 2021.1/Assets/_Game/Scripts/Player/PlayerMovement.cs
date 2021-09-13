@@ -139,7 +139,7 @@ public class PlayerMovement : MonoBehaviour
 
                 if (hit.transform.gameObject.GetComponent<MiniGameAccess>() != null)
                 {
-                    hit.transform.gameObject.GetComponent<MiniGameAccess>().AccessMinigame();
+                    //hit.transform.gameObject.GetComponent<MiniGameAccess>().AccessMinigame();
                 }
                
             }
@@ -181,9 +181,6 @@ public class PlayerMovement : MonoBehaviour
         {
             Room scriptRoom = other.GetComponent<Room>();
 
-         
-            
-
             if(scriptRoom != null)
             {
                 scriptRoom.EnterRoom();
@@ -194,6 +191,11 @@ public class PlayerMovement : MonoBehaviour
                     zoom = true;
                 }
             }
+        }
+
+        if (other.gameObject.CompareTag("Minigame"))
+        {
+            other.gameObject.GetComponent<MiniGameAccess>().AccessMinigame();
         }
     }
     void OnTriggerStay(Collider other)

@@ -4,29 +4,33 @@ using UnityEngine;
 
 public class Room : MonoBehaviour
 {
-    public float speedAnimation;
-    public float originalY, finalY;
+    [HideInInspector] public float originalY, finalY;
 
     public GameObject[] target;
 
     public bool hasZoom;
 
     private float _originalY, _finalY;
+    private float speedAnimation = 2;
     private bool isAnim;
     private bool animated = true;
 
     private void Start()
     {
+        originalY = transform.position.y;
+        finalY = transform.position.y - 9;
+
         _originalY = originalY;
         _finalY = finalY;
 
+        /*
         for (int i = 0; i < target.Length; i++)
         {
             Vector3 pos = target[i].transform.position;
             pos.y = originalY;
             target[i].transform.position = pos;
         }
-
+        */
     }
 
     private void Update()
