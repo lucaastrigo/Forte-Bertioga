@@ -23,17 +23,44 @@ public class PlayerMovement : MonoBehaviour
     {
         agent = GetComponentInChildren<NavMeshAgent>();
         cam = camera.GetComponent<Camera>();
+
+
     }
 
     void Update()
     {
-        //print(agent.steeringTarget.x);
+        //print(agent.velocity.z + "VELOCIDADE X");
+        //print(agent.velocity.x + "VELOCIDADE X");
 
-        if(Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             agent.velocity = Vector3.zero;
             agent.isStopped = true;
         }
+
+        //if (agent.velocity.x > 0.1f && agent.velocity.z < 0.1f)
+        //{
+        //    WalkUp();
+        //    DireitaSprite();
+        //}
+        //else if (agent.velocity.x < -0.1f && agent.velocity.z < 0.1f)
+        //{
+        //    WalkDown();
+        //    EsquerdaSprite();      
+        //}  
+
+        //if (agent.velocity.z > 0.1f && agent.velocity.x < 0.1f)
+        //{
+        //    WalkUp();
+        //    EsquerdaSprite(); 
+        //}
+        //else if (agent.velocity.z < -0.1f && agent.velocity.x < 0.1f)
+        //{
+        //    DireitaSprite();
+        //    WalkDown();
+        //}
+
+
 
         if (agent.steeringTarget.z > transform.position.z && agent.steeringTarget.x < transform.position.x)
         {
@@ -44,7 +71,7 @@ public class PlayerMovement : MonoBehaviour
             }
             if (agent.steeringTarget.x < transform.position.x)
             {
-                WalkDown();
+                WalkDown();                
             }
         }
         else if (agent.steeringTarget.z < transform.position.z && agent.steeringTarget.x > transform.position.x)

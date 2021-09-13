@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 705053d7e2e1e26419ed3104225dd9a7
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ambiente 1_Ambiente_Paredes_BaseColor
+    second: {fileID: 2800000, guid: 8d5c62d4ab78221458bc61ac7698b3cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ambiente 1_Ambiente_Paredes_Metalness
+    second: {fileID: 2800000, guid: 9eca274bc72785d43b209ee670396b6a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ambiente 1_Ambiente_Paredes_Roughness
+    second: {fileID: 2800000, guid: a2fd01a0624f1ef46a178b528636d7bf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ambiente 1_Escudo_BaseColor
+    second: {fileID: 2800000, guid: 5a50d26961d0060469b5b76643ed44e9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ambiente 1_Escudo_Metalness
+    second: {fileID: 2800000, guid: 48baeed989f2d3b4b8a8e9b2931dab83, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ambiente 1_Escudo_Roughness
+    second: {fileID: 2800000, guid: 0276c42ab8a7cdb4e9ebc0355d27982c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ambiente 1_Espadas_BaseColor
+    second: {fileID: 2800000, guid: 4e183fcc9d9ccb14e8653fc5fb286ada, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ambiente 1_Espadas_Metalness
+    second: {fileID: 2800000, guid: e8679364d1a49e54bad104efc6a3f4c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ambiente 1_Espadas_Roughness
+    second: {fileID: 2800000, guid: 62ee87fccbba0cc4d9809f6347021127, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ambiente 1_Mosquete_BaseColor
+    second: {fileID: 2800000, guid: 766f2e4fd2e6a2a4c98b6456444c15b6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ambiente 1_Mosquete_Metalness
+    second: {fileID: 2800000, guid: 9b2b144bc8affd94ea0b18c2fbbccfba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ambiente 1_Mosquete_Roughness
+    second: {fileID: 2800000, guid: 1c9a299f15fb726469cb1520d5e0c5dd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ambiente 1_Suporte_Armas_BaseColor
+    second: {fileID: 2800000, guid: 78131b81408ed2e459686297f23c2bd1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ambiente 1_Suporte_Armas_Metalness
+    second: {fileID: 2800000, guid: f6bfb6ec77ec85f4395ab263273ad9e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ambiente 1_Suporte_Armas_Roughness
+    second: {fileID: 2800000, guid: f078e0bb65feead4a83de8992ce469da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Baluarte_Baluarte1_BaseColor
+    second: {fileID: 2800000, guid: 7ed411dd74f9d0144bdc65a7bbb32cee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Baluarte_Baluarte1_Metalness
+    second: {fileID: 2800000, guid: 14478a2e3dae04e478cad21ce3124346, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Baluarte_Baluarte1_Roughness
+    second: {fileID: 2800000, guid: 86a389e61cae9014a82abca05ecf2457, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Baluarte_Baluarte2_BaseColor
+    second: {fileID: 2800000, guid: d22e85bc60f916f458846ff5105ed03c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Baluarte_Baluarte2_Metalness
+    second: {fileID: 2800000, guid: 5cc8e3caefc1e004ab1eaad5ec37e63b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Baluarte_Baluarte2_Roughness
+    second: {fileID: 2800000, guid: 8d0b292eed553ab4083d3ba153dfc321, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bandeira_BandeiraBrasil_BaseColor
+    second: {fileID: 2800000, guid: 031726f5d4c6eb64eba5e9a21cd0e6b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bandeira_BandeiraBrasil_Metalness
+    second: {fileID: 2800000, guid: 1255f26f650617e4f8c9e1f20afb5809, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bandeira_BandeiraBrasil_Roughness
+    second: {fileID: 2800000, guid: 9da00946cefcb8a47b4cf91e46b94364, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Bolas_Canh\xE3o_Bolas_Canh\xE3o_BaseColor"
+    second: {fileID: 2800000, guid: f6958bfebbe06d8468a0472676dfa369, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Bolas_Canh\xE3o_Bolas_Canh\xE3o_Metalness"
+    second: {fileID: 2800000, guid: 85aa53cdf73b9a34f843dda8c8478a88, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Bolas_Canh\xE3o_Bolas_Canh\xE3o_Roughness"
+    second: {fileID: 2800000, guid: 438b04c12fe7e824aa206922c9cc4cc6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CaixaFerramentas_CaixaFerramenta_BaseColor
+    second: {fileID: 2800000, guid: 4905924b21f90d24eb1c9abd4533f752, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CaixaFerramentas_CaixaFerramenta_Metalness
+    second: {fileID: 2800000, guid: fac6c50d32ceb114281b30ae6223077e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CaixaFerramentas_CaixaFerramenta_Roughness
+    second: {fileID: 2800000, guid: 709e92fc53c20a348b01af5f5ce4e800, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CaixaFerramentas_Ferramenta4_BaseColor
+    second: {fileID: 2800000, guid: 2e3a46c1684a1f84e8780970d8beb9ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CaixaFerramentas_Ferramenta4_Metalness
+    second: {fileID: 2800000, guid: b8072c81dfb58f64684aa6bc32577934, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CaixaFerramentas_Ferramenta4_Roughness
+    second: {fileID: 2800000, guid: 6f49abd87f8ed51418f34a6ebae818ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CaixaFerramentas_Ferramenta5_BaseColor
+    second: {fileID: 2800000, guid: b32e82ef3748305478063b2627bb72ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CaixaFerramentas_Ferramenta5_Metalness
+    second: {fileID: 2800000, guid: 26e1f7cdb9f45264d8056a727700a6a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CaixaFerramentas_Ferramenta5_Roughness
+    second: {fileID: 2800000, guid: 935ae9a8e35873b4c8a23f2b869cfda3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CaixaFerramentas_Ferramenta_BaseColor
+    second: {fileID: 2800000, guid: 458bed04f054079419b050a2f234876c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CaixaFerramentas_Ferramenta_Metalness
+    second: {fileID: 2800000, guid: ba5d78ae469b46f40a75e7b0048a93ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CaixaFerramentas_Ferramenta_Roughness
+    second: {fileID: 2800000, guid: d3b94a47800350d46bca568b3e9934d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Canh\xE3o_Canhao1_BaseColor"
+    second: {fileID: 2800000, guid: 3302f11f1c242774896761cf830d93cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Canh\xE3o_Canhao1_Metalness"
+    second: {fileID: 2800000, guid: fe274d54ef8d0ee45a286aa293ed5b23, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Canh\xE3o_Canhao1_Roughness"
+    second: {fileID: 2800000, guid: 97e032f3af8319240af893bc496d6872, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Canh\xE3o_Canhao2_BaseColor"
+    second: {fileID: 2800000, guid: b38b8b5bbcd124942964b255d7a79479, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Canh\xE3o_Canhao2_Metalness"
+    second: {fileID: 2800000, guid: 68e3e2e61f61de24bb46efd1d9695052, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Canh\xE3o_Canhao2_Roughness"
+    second: {fileID: 2800000, guid: a5a9bb80a5ef3fb4c9fa91095419cafa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Canh\xE3o_Canhao3_BaseColor"
+    second: {fileID: 2800000, guid: 307d43aa99d759a4b95fa958771ddee7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Canh\xE3o_Canhao3_Metalness"
+    second: {fileID: 2800000, guid: 339338fa4ecd9384089349521058e1e9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Canh\xE3o_Canhao3_Roughness"
+    second: {fileID: 2800000, guid: bbf988d878741bb41bbf60b4f638b03b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Canh\xE3o_Canhao4_BaseColor"
+    second: {fileID: 2800000, guid: d8fb63a2bcb271c458e4bf0738674459, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Canh\xE3o_Canhao4_Metalness"
+    second: {fileID: 2800000, guid: 8195f7a456c14c04c8797c2e7fd5e09c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Canh\xE3o_Canhao4_Roughness"
+    second: {fileID: 2800000, guid: 90c36fb30ab058f429cfc7e64314b503, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Canh\xE3o_Canhao5_BaseColor"
+    second: {fileID: 2800000, guid: 333aaf05708db1549a6b04f96795658d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Canh\xE3o_Canhao5_Roughness"
+    second: {fileID: 2800000, guid: e9ce21406ff535d408b7cad37cc3c960, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Escada_Escada4_BaseColor
+    second: {fileID: 2800000, guid: f301a840c99f5084898acf615a89169d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Escada_Escada4_Metalness
+    second: {fileID: 2800000, guid: dae420ba5f7092443b1dab60e306a010, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Escada_Escada4_Roughness
+    second: {fileID: 2800000, guid: 1378827c3dbb71c4d83f4f94f5277ffd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Forte1_Chao3_BaseColor
+    second: {fileID: 2800000, guid: 89d86544825d9bf419fe4aa2ac87a584, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Forte1_Chao3_Metalness
+    second: {fileID: 2800000, guid: 709a5f1b028693946921c7f7299c0484, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Forte1_Chao3_Roughness
+    second: {fileID: 2800000, guid: f07c8107d39751342b082c7ea5d9cec2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Forte1_Paredes_BaseColor
+    second: {fileID: 2800000, guid: 50026b0b90199ef4892dd5d355bc418e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Forte1_Paredes_Metalness
+    second: {fileID: 2800000, guid: 8cafcca20f73c224d8576d6ca50902a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Forte1_Paredes_Roughness
+    second: {fileID: 2800000, guid: 8609cd5fbe3473f43a5ea8e92759b9ec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Forte1_PisoBorda_BaseColor
+    second: {fileID: 2800000, guid: 21e75e1260f955a4592e67b5f0a9187c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Forte1_PisoBorda_Metalness
+    second: {fileID: 2800000, guid: 87b95e6ab971458438b050bc8d95d064, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Forte1_PisoBorda_Roughness
+    second: {fileID: 2800000, guid: 5513e0293cff7ac45a03127d3ba97246, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ItensPintura_BaldeTinta_BaseColor
+    second: {fileID: 2800000, guid: cbfa7f1ecf9a62b4b98cf4a2d0811d31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ItensPintura_BaldeTinta_Metalness
+    second: {fileID: 2800000, guid: 71a87ca2176b4ab46a43ffaf6d1ba34e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ItensPintura_BaldeTinta_Roughness
+    second: {fileID: 2800000, guid: 7246c80000cf0a84da3f389df2e0e39f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ItensPintura_PaletaTinta_BaseColor
+    second: {fileID: 2800000, guid: c32c5aa94ca1fc54392bf36d3c56f28b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ItensPintura_PaletaTinta_Metalness
+    second: {fileID: 2800000, guid: f3ab3c222f7eeb64bafeda8cf475cefc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ItensPintura_PaletaTinta_Roughness
+    second: {fileID: 2800000, guid: f76ef8e23e195114289c5785ee9b8874, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ItensPintura_Pincel1_BaseColor
+    second: {fileID: 2800000, guid: 36b5eace6a84b0a4cb24b22347abec78, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ItensPintura_Pincel1_Metalness
+    second: {fileID: 2800000, guid: 2370c60a1a43bd24587c7e96fece8979, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ItensPintura_Pincel1_Roughness
+    second: {fileID: 2800000, guid: 18d7a689b463c634d821296ceb5c2a52, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lamparina_Lamparina3_BaseColor
+    second: {fileID: 2800000, guid: 2f78988ebf693514d898f2447a9eb2c7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lamparina_Lamparina3_Metalness
+    second: {fileID: 2800000, guid: 85dd46838c1c4e840b56af4e767ac455, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lamparina_Lamparina3_Roughness
+    second: {fileID: 2800000, guid: 9de1c8d323416d8478cd63edfdd402f6, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 300
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 300
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
