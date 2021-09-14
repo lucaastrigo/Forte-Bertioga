@@ -13,7 +13,7 @@ public class Barril : MonoBehaviour
     void Start()
     {
         m = GetComponent<Renderer>().material;
-        //Destroy(gameObject, 5f);
+        Destroy(gameObject, 50f);
     }
 
     void Update()
@@ -31,11 +31,11 @@ public class Barril : MonoBehaviour
 
         if (vaiPraEsquerda)
         {
-            transform.Translate(Vector3.left * Time.deltaTime * horizontalSpeed);
+            transform.Translate(Vector3.left * horizontalSpeed / 20);
         }
         else
         {
-            transform.Translate(Vector3.right * Time.deltaTime * horizontalSpeed);
+            transform.Translate(Vector3.right * horizontalSpeed / 20);
         }
     }
 

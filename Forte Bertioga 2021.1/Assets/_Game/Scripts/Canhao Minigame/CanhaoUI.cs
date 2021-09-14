@@ -21,6 +21,12 @@ public class CanhaoUI : MonoBehaviour
     private bool canFire;
     private bool aumentando;
 
+    private void Start()
+    {
+        potenciaAtual = potenciaMin;
+        slider.minValue = potenciaMin;
+        slider.maxValue = potenciaMax;
+    }
     private void Update()
     {
         slider.value = potenciaAtual;
