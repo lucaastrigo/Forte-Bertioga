@@ -25,7 +25,7 @@ public class BolaCanhao : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        if(other.gameObject.GetComponent<Barril>() != null)
+        if (other.gameObject.GetComponent<Barril>() != null)
         {
             if (other.gameObject.GetComponent<Barril>().barrilCerto)
             {

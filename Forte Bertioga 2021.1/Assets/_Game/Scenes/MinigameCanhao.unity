@@ -224,7 +224,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 80991047}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fa76fa2f130f154ea08d15ff450a254, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b303105b68911740aabc0b29b6f7f8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spawnCooldown: 5
@@ -237,14 +237,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 80991047}
-  m_LocalRotation: {x: -0, y: -0.35373968, z: -0, w: 0.9353439}
-  m_LocalPosition: {x: 119.5, y: 6, z: -197.2}
+  m_LocalRotation: {x: 0.70557505, y: 0.04651815, z: -0.04651815, w: 0.70557505}
+  m_LocalPosition: {x: 119.5, y: 8.28, z: -197.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2098252390}
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: -41.432, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -7.544}
 --- !u!1 &107707460
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,7 +684,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259981210}
   m_LocalRotation: {x: -0.03713865, y: 0.9559298, z: 0.1386033, w: 0.25614068}
-  m_LocalPosition: {x: -70.47, y: 17.79, z: -81.95}
+  m_LocalPosition: {x: -68.94, y: 17.79, z: -84.69}
   m_LocalScale: {x: 3.5877037, y: 3.5877037, z: 3.5877037}
   m_Children:
   - {fileID: 665941190}
@@ -937,7 +937,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -623.3839, y: -294.3272}
+  m_AnchoredPosition: {x: -623.3839, y: -272.32724}
   m_SizeDelta: {x: 148.6031, y: 145.587}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &362838202
@@ -966,7 +966,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 362838202}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fa76fa2f130f154ea08d15ff450a254, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b303105b68911740aabc0b29b6f7f8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spawnCooldown: 5
@@ -979,14 +979,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 362838202}
-  m_LocalRotation: {x: -0, y: -0.041551653, z: -0, w: 0.9991363}
-  m_LocalPosition: {x: -99.4, y: 6, z: -153.5}
+  m_LocalRotation: {x: 0.8884932, y: -0, z: -0, w: 0.45888987}
+  m_LocalPosition: {x: -99.4, y: 9.1, z: -152.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 694601771}
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: -4.763, z: 0}
+  m_LocalEulerAnglesHint: {x: 125.369, y: 0, z: 0}
 --- !u!1 &375914297
 GameObject:
   m_ObjectHideFlags: 0
@@ -1632,7 +1632,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 694601770}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2216,7 +2216,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -302, y: -336}
+  m_AnchoredPosition: {x: -351, y: -314}
   m_SizeDelta: {x: 289.668, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1206994281
@@ -2642,7 +2642,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1786191849}
   m_LocalRotation: {x: 0.26334646, y: -0.014343533, z: -0.001912771, w: 0.9645928}
-  m_LocalPosition: {x: 0.008451235, y: -0.05287055, z: 0.9966833}
+  m_LocalPosition: {x: -0.01, y: 0.19, z: 0.19}
   m_LocalScale: {x: 0.040889677, y: 0.04088967, z: 0.040889677}
   m_Children:
   - {fileID: 434996741}
@@ -2766,7 +2766,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920107550}
   m_LocalRotation: {x: -0.0041233897, y: -0, z: -0, w: 0.99999154}
-  m_LocalPosition: {x: -0.022, y: -0.185, z: 2.056}
+  m_LocalPosition: {x: -0.04, y: 0.06, z: 1.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 259981211}
@@ -2906,7 +2906,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2098252389}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1

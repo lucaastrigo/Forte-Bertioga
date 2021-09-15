@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 6408368919958120231}
   - component: {fileID: 8016620646837446786}
   - component: {fileID: 5234367253685607496}
-  - component: {fileID: 1971907714906163108}
   - component: {fileID: 8373593835022139028}
+  - component: {fileID: 6704732163856698020}
   m_Layer: 0
   m_Name: Barril
   m_TagString: Untagged
@@ -83,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1971907714906163108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6027163447936007581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1744ef1f27b87454aaa22af5d67ddce7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vaiPraEsquerda: 0
-  barrilCerto: 0
 --- !u!136 &8373593835022139028
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -111,3 +97,17 @@ CapsuleCollider:
   m_Height: 0.039044514
   m_Direction: 1
   m_Center: {x: 0, y: 0.0000000119851284, z: 0.006922937}
+--- !u!114 &6704732163856698020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6027163447936007581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a66f139afaa552d46a4360581b94c313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vaiPraEsquerda: 0
+  barrilCerto: 0

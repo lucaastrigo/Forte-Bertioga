@@ -183,13 +183,13 @@ public class PlayerMovement : MonoBehaviour
 
             if(scriptRoom != null)
             {
-                //scriptRoom.EnterRoom();
+                scriptRoom.EnterRoom();
 
-                //if (scriptRoom.hasZoom)
-                //{
-                //    cam.orthographicSize = 7.5f;
-                //    zoom = true;
-                //}
+                if (scriptRoom.hasZoom)
+                {
+                    cam.orthographicSize = 7.5f;
+                    zoom = true;
+                }
             }
         }
 
@@ -209,13 +209,13 @@ public class PlayerMovement : MonoBehaviour
 
             if (scriptRoom != null)
             {
-                //scriptRoom.EnterRoom();
+                scriptRoom.EnterRoom();
 
-                //if (scriptRoom.hasZoom)
-                //{
-                //    cam.orthographicSize = 7.5f;
-                //    zoom = true;
-                //}
+                if (scriptRoom.hasZoom)
+                {
+                    cam.orthographicSize = 7.5f;
+                    zoom = true;
+                }
             }
         }
     }
@@ -228,12 +228,12 @@ public class PlayerMovement : MonoBehaviour
 
             if (scriptRoom != null)
             {
-                //scriptRoom.ExitRoom();
+                scriptRoom.ExitRoom();
 
-                //if (scriptRoom.hasZoom)
-                //{
-                //    zoom = false;
-                //}
+                if (scriptRoom.hasZoom)
+                {
+                    zoom = false;
+                }
             }
         }
     }
