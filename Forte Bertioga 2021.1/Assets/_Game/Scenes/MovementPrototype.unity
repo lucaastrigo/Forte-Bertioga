@@ -4369,7 +4369,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 15
+  orthographic size: 25
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -26612,7 +26612,7 @@ GameObject:
   - component: {fileID: 7698577591574142294}
   - component: {fileID: 4242804710741162753}
   - component: {fileID: 1133962236407735454}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Escada
   m_TagString: Untagged
   m_Icon: {fileID: 0}

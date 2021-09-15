@@ -31,11 +31,11 @@ public class Barril : MonoBehaviour
 
         if (vaiPraEsquerda)
         {
-            transform.Translate(Vector3.left * horizontalSpeed / 30);
+            transform.Translate(Vector3.left * horizontalSpeed / 20);
         }
         else
         {
-            transform.Translate(Vector3.right * horizontalSpeed / 30);
+            transform.Translate(Vector3.right * horizontalSpeed / 20);
         }
     }
 
