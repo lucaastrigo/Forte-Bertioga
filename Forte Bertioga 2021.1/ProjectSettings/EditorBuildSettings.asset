@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_Game/Scenes/DialogoInicial.unity
+    guid: 27a0055bb5be17e47a4a47694875ef37
+  - enabled: 1
     path: Assets/_Game/Scenes/MovementPrototype.unity
     guid: 73cc1713852c55f44a97d6c0d5abb5fc
   - enabled: 1
