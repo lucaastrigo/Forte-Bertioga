@@ -24,8 +24,9 @@ public class BarrilSpawner : MonoBehaviour
 
     void Spawn()
     {
-        GameObject b = Instantiate(barril, transform.position, Quaternion.identity);
+        GameObject b = Instantiate(barril, transform.position, transform.rotation);
         b.GetComponent<Barril>().vaiPraEsquerda = vaiPraEsquerda;
+   
 
         if(Barril.horizontalSpeed > 0)
         {
