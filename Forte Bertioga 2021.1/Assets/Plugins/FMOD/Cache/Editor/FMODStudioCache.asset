@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9215149261211194817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_selecao_minigame
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_selecao_minigame
+  guid: b7367453885fcf4fb50c70177b4f0db0
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 399
 --- !u!114 &-9212043133947363195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16,6 +39,29 @@ MonoBehaviour:
   guid: fa6a277652eefd4cb34762d2e2745696
   Banks:
   - {fileID: 1798358710284605382}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-9176746908011458156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/exploracao_forte/sfx_player_passos
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/exploracao_forte/sfx_player_passos
+  guid: 5c3543e748bc8341a49fc9883ed6c05d
+  Banks:
+  - {fileID: 201900600902463766}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -66,6 +112,50 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-8540684850057334979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_ambi_minigame_palicada/local
+  m_EditorClassIdentifier: 
+  Name: local
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-8509476882895732202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/sfx/pali\xE7ada/sfx_minion_mov"
+  m_EditorClassIdentifier: 
+  Path: "event:/sfx/pali\xE7ada/sfx_minion_mov"
+  guid: 76044faa07e6a04fb623191f414525c8
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7221885128164270756}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 260
 --- !u!114 &-8361466750138597037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,6 +199,30 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-7869545129891740059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ambientes/sfx_ambi_forte
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ambientes/sfx_ambi_forte
+  guid: 2e0bf6544b859f4583bfbfc76afb113d
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 9177125619541102647}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 66000
 --- !u!114 &-7866059880139357828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,6 +263,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-7819854942761513113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/exploracao_forte/sfx_porta_trancada
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/exploracao_forte/sfx_porta_trancada
+  guid: e9a43d4f694d1a42a6ad7fe98d07654c
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 720
 --- !u!114 &-7704949924368481087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,6 +374,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-7012628297487017090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/sfx/pali\xE7ada/sfx_minion3_selecao"
+  m_EditorClassIdentifier: 
+  Path: "event:/sfx/pali\xE7ada/sfx_minion3_selecao"
+  guid: b0f40c6ce7184b4f8513d5652f9af9f2
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
 --- !u!114 &-6641781902382950166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -346,6 +506,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-5479296344752555936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_touch_arvore
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_touch_arvore
+  guid: e123bb0de905734a9a95ea06f125d0d5
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 300
 --- !u!114 &-5427335584381354415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -635,6 +818,52 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3939485608215838550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_pause
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_pause
+  guid: 88c33c8208b38d428b098e65dcdfef86
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-3724674544204238269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/canhao/sfx_canhao_mov
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/canhao/sfx_canhao_mov
+  guid: c01701bc7989a143a6553b710be7395b
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-3712836102111692050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -655,6 +884,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-3642862995911371214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/exploracao_forte/sfx_porta_abrindo
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/exploracao_forte/sfx_porta_abrindo
+  guid: 03d94de6ca348743b3bbf9363ab5589f
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1550
 --- !u!114 &-3624118880329910508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -678,6 +930,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-3421320304482675509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_touch_areia
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_touch_areia
+  guid: 48ed6574c6a5f2488a5194d355dfd3bb
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &-3285481344347164585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ambientes/sfx_ambi_minigame_palicada_mar
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ambientes/sfx_ambi_minigame_palicada_mar
+  guid: a778c6ddb9cbee4eb805264c30c1cff0
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 52038
 --- !u!114 &-3146374699708170300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -738,6 +1036,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-2955850021736450585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_canhao_force
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_canhao_force
+  guid: 2f114c1851c23640bce618b6a48b0016
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6173
 --- !u!114 &-2773212853664527738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -847,6 +1168,30 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-2078026908340361155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ambientes/sfx_ambi_minigame_palicada
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ambientes/sfx_ambi_minigame_palicada
+  guid: bca155f5beedd149bafad2d3e769cc54
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8540684850057334979}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 95379
 --- !u!114 &-2010647207661625389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -890,6 +1235,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 52038
+--- !u!114 &-1974467863772422045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/sfx/pali\xE7ada/sfx_minion_coleta_madeira"
+  m_EditorClassIdentifier: 
+  Path: "event:/sfx/pali\xE7ada/sfx_minion_coleta_madeira"
+  guid: c6df2d836228e141befea833c2a554cf
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 150
 --- !u!114 &-1713992767714709697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -933,6 +1301,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-1381599410544673971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/canhao/sfx_tiro_alvejar_mar
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/canhao/sfx_tiro_alvejar_mar
+  guid: 8ffd204d57991047899c92575c6da767
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2384
 --- !u!114 &-1148903364022562931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1076,6 +1467,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-553497471020097695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_selected_menu
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_selected_menu
+  guid: d5009dc09c71c34792e11feda97a51f4
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 158
 --- !u!114 &-537987930009861206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1099,6 +1513,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-511508739516326153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/canhao/sfx_canhao_tiro
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/canhao/sfx_canhao_tiro
+  guid: a2fbc59bcaaded44a667fd1e54978b92
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1365
 --- !u!114 &-310604708705829445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1122,6 +1559,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-249390458075534048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/canhao/sfx_player_acertou_aliado
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/canhao/sfx_player_acertou_aliado
+  guid: 3bbbd5653e152b42b9dccde0e4a19e38
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1144
 --- !u!114 &-240782096510657220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1224,44 +1684,44 @@ MonoBehaviour:
   - {fileID: 6317572382596849415}
   - {fileID: 201900600902463766}
   EditorEvents:
-  - {fileID: 7719176539431000091}
-  - {fileID: 8265089698879972423}
-  - {fileID: 3434075783933609165}
-  - {fileID: -4750349859112873188}
-  - {fileID: 4883287331817481845}
-  - {fileID: 3508314688488736003}
-  - {fileID: -4211981420331081781}
-  - {fileID: 4789456398711540378}
-  - {fileID: -4247123060670223764}
-  - {fileID: 2245549080605888729}
-  - {fileID: 169003582784973156}
-  - {fileID: -81356613746075955}
-  - {fileID: 6662359128545249928}
-  - {fileID: 3626401780999632282}
-  - {fileID: 4360492928164369092}
-  - {fileID: 7202069219080958399}
-  - {fileID: -2447785716689461987}
-  - {fileID: -1106640582664945336}
-  - {fileID: -1984241628968833159}
-  - {fileID: -4229625155852623114}
-  - {fileID: -1713992767714709697}
-  - {fileID: -6641781902382950166}
-  - {fileID: -7633596897805162728}
-  - {fileID: 9094211263831222403}
-  - {fileID: 5799583549277832890}
-  - {fileID: 6324972652880347890}
-  - {fileID: 5884482935253710509}
-  - {fileID: -144541311474052866}
-  - {fileID: 147371163729995892}
-  - {fileID: -4162870983660822454}
-  - {fileID: 3700588782787196320}
   - {fileID: 6945580039052131357}
+  - {fileID: -3642862995911371214}
+  - {fileID: 4811219963657969814}
+  - {fileID: 7845979924555964320}
+  - {fileID: -7869545129891740059}
+  - {fileID: -2955850021736450585}
+  - {fileID: -249390458075534048}
+  - {fileID: 262817895780592906}
+  - {fileID: -3421320304482675509}
+  - {fileID: 7888887898052709917}
+  - {fileID: 4765811644233933088}
+  - {fileID: -9176746908011458156}
+  - {fileID: 251962325235664132}
+  - {fileID: -8509476882895732202}
+  - {fileID: 4313946223259302485}
+  - {fileID: -3939485608215838550}
+  - {fileID: -1381599410544673971}
+  - {fileID: 5497620653377435828}
+  - {fileID: -511508739516326153}
+  - {fileID: -3285481344347164585}
+  - {fileID: 6228427999201438466}
+  - {fileID: -7012628297487017090}
+  - {fileID: -9215149261211194817}
+  - {fileID: -2078026908340361155}
+  - {fileID: -3724674544204238269}
+  - {fileID: 4173371729323710438}
+  - {fileID: -1974467863772422045}
+  - {fileID: 6040378835860797176}
+  - {fileID: -553497471020097695}
+  - {fileID: -5479296344752555936}
+  - {fileID: -7819854942761513113}
+  - {fileID: 5492268228606805735}
   EditorParameters: []
   MasterBanks:
   - {fileID: 201900600902463766}
   StringsBanks:
   - {fileID: 6317572382596849415}
-  stringsBankWriteTime: 637673333394411444
+  stringsBankWriteTime: 637680059449683305
   cacheVersion: 6
 --- !u!114 &60732811157412357
 MonoBehaviour:
@@ -1344,10 +1804,56 @@ MonoBehaviour:
   Path: Assets/StreamingAssests/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637673333394391438
+  lastModified: 637680059449593325
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &251962325235664132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_touch_grama
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_touch_grama
+  guid: 610ddbfe6c82c24e9e7fb2d1c97e8b64
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &262817895780592906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_back_menu
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_back_menu
+  guid: 483e058900c9c442853bfdd7a890eaf0
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 158
 --- !u!114 &340472108385553253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1840,6 +2346,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &4173371729323710438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/canhao/sfx_player_acertou_inimigo
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/canhao/sfx_player_acertou_inimigo
+  guid: c07001adc5d63047a16bf0fd5d328e7a
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 543
 --- !u!114 &4276756200478266646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1860,6 +2389,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &4313946223259302485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/sfx/pali\xE7ada/sfx_minion1_selecao"
+  m_EditorClassIdentifier: 
+  Path: "event:/sfx/pali\xE7ada/sfx_minion1_selecao"
+  guid: 87348a733575614491ef7e7b7e56574e
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1826
 --- !u!114 &4360492928164369092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1926,6 +2478,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &4765811644233933088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/sfx/pali\xE7ada/sfx_minion_deposita_madeira"
+  m_EditorClassIdentifier: 
+  Path: "event:/sfx/pali\xE7ada/sfx_minion_deposita_madeira"
+  guid: 5b15714889bb3f45814892760a69a838
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 180
 --- !u!114 &4789456398711540378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1949,6 +2524,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 500
+--- !u!114 &4811219963657969814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_startgame
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_startgame
+  guid: 23c6b3e01b64034eb1539d5c9d767e3a
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &4883287331817481845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2084,6 +2682,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &5492268228606805735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_canhao_botao
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_canhao_botao
+  guid: fa6a277652eefd4cb34762d2e2745696
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 432
+--- !u!114 &5497620653377435828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_touch
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_touch
+  guid: 98e7a82f1d2f494790e123d6f804f536
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 158
 --- !u!114 &5523378436740239415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2170,6 +2814,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1826
+--- !u!114 &6040378835860797176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/sfx/pali\xE7ada/sfx_minion2_selecao"
+  m_EditorClassIdentifier: 
+  Path: "event:/sfx/pali\xE7ada/sfx_minion2_selecao"
+  guid: ccecce929bca0d4cbd87302a32e9bc02
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1826
 --- !u!114 &6068873384618625119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2210,6 +2877,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &6228427999201438466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/canhao/sfx_tiro_alvejar_barril
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/canhao/sfx_tiro_alvejar_barril
+  guid: aa5f9354b55110489de2e6895767a1f3
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1365
 --- !u!114 &6240145315881324474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2249,13 +2939,13 @@ MonoBehaviour:
   Path: Assets/StreamingAssests/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637673333394411444
+  lastModified: 637680059449683305
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 2400
+    Value: 2838
   - Name: Mobile
-    Value: 2400
+    Value: 2838
   Exists: 1
 --- !u!114 &6324972652880347890
 MonoBehaviour:
@@ -2430,6 +3120,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2384
+--- !u!114 &7221885128164270756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_minion_mov/ground
+  m_EditorClassIdentifier: 
+  Name: ground
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &7323022294244150722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2562,6 +3272,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &7845979924555964320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ambientes/sfx_ambi_minigame_canhao
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ambientes/sfx_ambi_minigame_canhao
+  guid: 28387cec354d2c43aca3e1ba89d8ef05
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 36000
+--- !u!114 &7888887898052709917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/canhao/sfx_barril_mov
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/canhao/sfx_barril_mov
+  guid: 4f16abe66b272d42b2e0ac8404f4b3b1
+  Banks:
+  - {fileID: 201900600902463766}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8245
 --- !u!114 &7955406033193722988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2712,6 +3468,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &9177125619541102647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_ambi_forte/local
+  m_EditorClassIdentifier: 
+  Name: local
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &9207628833405477691
 MonoBehaviour:
   m_ObjectHideFlags: 0
