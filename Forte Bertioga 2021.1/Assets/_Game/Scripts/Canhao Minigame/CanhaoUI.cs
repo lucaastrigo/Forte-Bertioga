@@ -8,7 +8,7 @@ public class CanhaoUI : MonoBehaviour
 {
     public float shootCooldown;
     public float potenciaMin, potenciaMax;
-    [Range(0, 1)] public float sliderSpeed;
+    [Range(0, 100)] public float sliderSpeed;
     
     public bool pressionado;
 
@@ -18,7 +18,7 @@ public class CanhaoUI : MonoBehaviour
     public Slider slider;
 
     private float time;
-    private float potenciaAtual;
+    public float potenciaAtual;
     private bool canFire;
     private bool aumentando;
 
@@ -42,24 +42,6 @@ public class CanhaoUI : MonoBehaviour
             time -= Time.deltaTime;
             canFire = false;
         }
-
-        /*if (potenciaAtual <= potenciaMin)
-        {
-            aumentando = true;
-        }
-        else if(potenciaAtual >= potenciaMax)
-        {
-            aumentando = false;
-        }
-
-        if (aumentando)
-        {
-            potenciaAtual += Time.deltaTime * sliderSpeed;
-        }
-        else
-        {
-            potenciaAtual -= Time.deltaTime * sliderSpeed;
-        }*/
 
         if (pressionado)
         {
@@ -95,8 +77,16 @@ public class CanhaoUI : MonoBehaviour
         {
             FMODUnity.RuntimeManager.PlayOneShot("event:/canhao/sfx_canhao_tiro", transform.position);
             time = shootCooldown;
-            GameObject bo = Instantiate(bullet, bocaCanhao.position, bocaCanhao.rotation);
-            bo.GetComponent<BolaCanhao>().potencia = potenciaAtual;
+
+            //GameObject bo = Instantiate(bullet, bocaCanhao.position, bocaCanhao.rotation);
+            //bo.GetComponent<BolaCanhao>().potencia = potenciaAtual;
+
+
+
+            GameObject CreatedCannonball = Instantiate(bullet, bocaCanhao.position, bocaCanhao.rotation);
+            CreatedCannonball.GetComponent<Rigidbody>().velocity = bocaCanhao.transform.up * potenciaAtual;
+
         }
     }
+
 }
