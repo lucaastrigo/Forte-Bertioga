@@ -111,3 +111,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vaiPraEsquerda: 0
   barrilCerto: 0
+  speedModifier: 0.25

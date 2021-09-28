@@ -8,6 +8,8 @@ public class Barril : MonoBehaviour
     [HideInInspector] public bool vaiPraEsquerda;
     [HideInInspector] public bool barrilCerto;
 
+    public float speedModifier;
+
     Material m;
 
     void Start()
@@ -25,17 +27,17 @@ public class Barril : MonoBehaviour
         }
         else
         {
-            m.color = Color.cyan;
+            m.color = Color.green;
 
         }
 
         if (vaiPraEsquerda)
         {
-            transform.Translate(Vector3.left * horizontalSpeed / 20);
+            transform.Translate(Vector3.left * horizontalSpeed / 20 * Time.timeScale * speedModifier);
         }
         else
         {
-            transform.Translate(Vector3.right * horizontalSpeed / 20);
+            transform.Translate(Vector3.right * horizontalSpeed / 20 * Time.timeScale * speedModifier);
         }
     }
 
