@@ -9,7 +9,8 @@ public class CanhaoUI : MonoBehaviour
     public float shootCooldown;
     public float potenciaMin, potenciaMax;
     [Range(0, 1)] public float sliderSpeed;
-
+    
+    public bool pressionado;
 
     public GameObject shootButton;
     public GameObject bullet;
@@ -21,13 +22,14 @@ public class CanhaoUI : MonoBehaviour
     private bool canFire;
     private bool aumentando;
 
-    private void Start()
+    void Start()
     {
         potenciaAtual = potenciaMin;
         slider.minValue = potenciaMin;
         slider.maxValue = potenciaMax;
     }
-    private void Update()
+
+    void Update()
     {
         slider.value = potenciaAtual;
 
@@ -41,7 +43,7 @@ public class CanhaoUI : MonoBehaviour
             canFire = false;
         }
 
-        if (potenciaAtual <= potenciaMin)
+        /*if (potenciaAtual <= potenciaMin)
         {
             aumentando = true;
         }
@@ -57,7 +59,34 @@ public class CanhaoUI : MonoBehaviour
         else
         {
             potenciaAtual -= Time.deltaTime * sliderSpeed;
+        }*/
+
+        if (pressionado)
+        {
+            if(potenciaAtual < potenciaMax)
+            {
+                potenciaAtual += Time.deltaTime * sliderSpeed;
+            }
         }
+        else
+        {
+            if(potenciaAtual > potenciaMin)
+            {
+                potenciaAtual -= Time.deltaTime * sliderSpeed;
+            }
+        }
+    }
+
+    public void Pressiona()
+    {
+        pressionado = true;
+    }
+
+    public void Solta()
+    {
+        pressionado = false;
+
+        Shoot();
     }
 
     public void Shoot()

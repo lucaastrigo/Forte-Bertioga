@@ -1085,6 +1085,7 @@ MonoBehaviour:
   potenciaMin: 1.28
   potenciaMax: 2.67
   sliderSpeed: 0.5
+  pressionado: 0
   shootButton: {fileID: 316867536}
   bullet: {fileID: 8238092304743790079, guid: 5416272497eaebc4b90d956681eff26d, type: 3}
   bocaCanhao: {fileID: 1920107551}
@@ -1431,6 +1432,8 @@ GameObject:
   - component: {fileID: 316867539}
   - component: {fileID: 316867538}
   - component: {fileID: 316867537}
+  - component: {fileID: 316867541}
+  - component: {fileID: 316867542}
   m_Layer: 5
   m_Name: Shoot Button
   m_TagString: Untagged
@@ -1460,8 +1463,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
+    m_PressedColor: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1481,19 +1484,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 316867538}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 259981213}
-        m_TargetAssemblyTypeName: CanhaoUI, Assembly-CSharp
-        m_MethodName: Shoot
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &316867538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1551,6 +1542,64 @@ RectTransform:
   m_AnchoredPosition: {x: -623.3839, y: -272.32724}
   m_SizeDelta: {x: 148.6031, y: 145.587}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &316867541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316867536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c28f4bf943e74e4ba125ed01856ea4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pivotCanhao: {fileID: 259981210}
+--- !u!114 &316867542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316867536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 259981213}
+          m_TargetAssemblyTypeName: CanhaoUI, Assembly-CSharp
+          m_MethodName: Pressiona
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 259981213}
+          m_TargetAssemblyTypeName: CanhaoUI, Assembly-CSharp
+          m_MethodName: Solta
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &362838202
 GameObject:
   m_ObjectHideFlags: 0
