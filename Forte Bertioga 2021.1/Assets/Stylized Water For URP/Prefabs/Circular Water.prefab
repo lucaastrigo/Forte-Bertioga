@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2533760440387989058}
   m_Layer: 4
   m_Name: Circular Water
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -240,6 +240,7 @@ MonoBehaviour:
   waterUVs: 1
   hideComponents: 0
   enableFoamShadows: 1
+  enableRefraction: 0
   meshRenderer: {fileID: 453604104898822068}
   meshFilter: {fileID: 6158408525932184397}
   material: {fileID: 2100000, guid: ea66d3ba3c5ac7d498707e8c9e54524f, type: 2}

@@ -9,6 +9,7 @@ TagManager:
   - Bala
   - Room
   - Minigame
+  - Water
   layers:
   - Default
   - TransparentFX

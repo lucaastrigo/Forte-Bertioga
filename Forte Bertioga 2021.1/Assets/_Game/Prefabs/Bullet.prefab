@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 968575805805971872}
   - component: {fileID: 7353661194505838259}
   - component: {fileID: 4929985068378601464}
+  - component: {fileID: 1252278292194732364}
   m_Layer: 7
   m_Name: Bullet
   m_TagString: Bala
@@ -126,8 +127,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5df105e65caa3b24394d7cfd98558311, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedModifier: 0.5
-  potencia: 0
+--- !u!135 &1252278292194732364
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8238092304743790079}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.85
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &4298030674100770086
 PrefabInstance:
   m_ObjectHideFlags: 0

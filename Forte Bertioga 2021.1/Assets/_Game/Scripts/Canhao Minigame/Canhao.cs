@@ -58,6 +58,8 @@ public class Canhao : MonoBehaviour
                     {
                         //print("esquerda");
 
+                        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/canhao/sfx_canhao_mov", transform.position);
+
                         float rotationSpeed = 1;
                         float xAxis = -rotationSpeed;
                         
@@ -67,6 +69,8 @@ public class Canhao : MonoBehaviour
                     else if (newPosicao.x > posicao.x)
                     {
                         //print("direita");
+
+                        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/canhao/sfx_canhao_mov", transform.position);
 
                         float rotationSpeed = 1;
                         float xAxis = rotationSpeed;
