@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class BolaCanhao : MonoBehaviour
 {
-    public float speedModifier;
-    [HideInInspector] public float potencia;
+    //public float speedModifier;
+    //[HideInInspector] public float potencia;
 
     Rigidbody rb;
 
     void Start()
     {
-        Destroy(gameObject, 5f);
-        rb = GetComponent<Rigidbody>();
-        rb.AddForce(transform.forward * 1.7f * potencia, ForceMode.Impulse);
-        rb.AddForce(transform.up * potencia / 4.3f, ForceMode.Impulse);
+        //Destroy(gameObject, 5f);
+        //rb = GetComponent<Rigidbody>();
+        //rb.AddForce(transform.forward * 1.7f * potencia, ForceMode.Impulse);
+        //rb.AddForce(transform.up * potencia / 4.3f, ForceMode.Impulse);
 
     }
 
@@ -38,6 +38,7 @@ public class BolaCanhao : MonoBehaviour
                 CanhaoGLOBAL.barrisErrados++;
                 Destroy(other.gameObject);
                 Destroy(gameObject);
+
             }
         }
     }

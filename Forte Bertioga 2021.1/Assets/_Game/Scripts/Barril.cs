@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Barril : MonoBehaviour
 {
-    [HideInInspector] public static float horizontalSpeed = 1;
-    [HideInInspector] public bool vaiPraEsquerda;
+    //[HideInInspector] public static float horizontalSpeed = 1;
+    //[HideInInspector] public bool vaiPraEsquerda;
     [HideInInspector] public bool barrilCerto;
 
-    public float speedModifier;
+    //public float speedModifier;
 
     Material m;
 
@@ -31,14 +31,14 @@ public class Barril : MonoBehaviour
 
         }
 
-        if (vaiPraEsquerda)
-        {
-            transform.Translate(Vector3.left * horizontalSpeed / 20 * Time.timeScale * speedModifier);
-        }
-        else
-        {
-            transform.Translate(Vector3.right * horizontalSpeed / 20 * Time.timeScale * speedModifier);
-        }
+        //if (vaiPraEsquerda)
+        //{
+        //    transform.Translate(Vector3.left * horizontalSpeed / 20 * Time.timeScale * speedModifier);
+        //}
+        //else
+        //{
+        //    transform.Translate(Vector3.right * horizontalSpeed / 20 * Time.timeScale * speedModifier);
+        //}
     }
 
     private void OnCollisionEnter(Collision collision)

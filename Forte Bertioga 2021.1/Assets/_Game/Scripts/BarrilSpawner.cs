@@ -5,7 +5,8 @@ using UnityEngine;
 public class BarrilSpawner : MonoBehaviour
 {
     public float spawnCooldown;
-    public bool vaiPraEsquerda;
+    public float force;
+    //public bool vaiPraEsquerda;
     public GameObject barril;
 
     private float time;
@@ -24,17 +25,19 @@ public class BarrilSpawner : MonoBehaviour
 
     void Spawn()
     {
-        GameObject b = Instantiate(barril, transform.position, transform.rotation);
-        b.GetComponent<Barril>().vaiPraEsquerda = vaiPraEsquerda;
+        //GameObject b = Instantiate(barril, transform.position, transform.rotation);
+        //b.GetComponent<Barril>().vaiPraEsquerda = vaiPraEsquerda;
 
-        if (Barril.horizontalSpeed > 0)
-        {
-            Barril.horizontalSpeed = CanhaoGLOBAL.barrisCertos / 3;
-        }
-        else
-        {
-            Barril.horizontalSpeed = 1;
-        }
+        //if (Barril.horizontalSpeed > 0)
+        //{
+        //    Barril.horizontalSpeed = CanhaoGLOBAL.barrisCertos / 3;
+        //}
+        //else
+        //{
+        //    Barril.horizontalSpeed = 1;
+        //}
+        GameObject b = Instantiate(barril, transform.position, transform.rotation);
+        b.GetComponent<Rigidbody>().velocity = transform.right * force;
 
         if (Random.Range(0, 100) <= 70)
         {

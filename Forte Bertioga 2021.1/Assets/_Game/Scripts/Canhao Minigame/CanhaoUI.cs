@@ -7,31 +7,31 @@ using TMPro;
 public class CanhaoUI : MonoBehaviour
 {
     public float shootCooldown;
-    public float potenciaMin, potenciaMax;
-    [Range(0, 100)] public float sliderSpeed;
-    
+    //public float potenciaMin, potenciaMax;
+    [Range(0, 100)] public float potenciaAtual;
+    //[Range(0, 100)] public float sliderSpeed;
+
     public bool pressionado;
 
     public GameObject shootButton;
     public GameObject bullet;
     public Transform bocaCanhao;
-    public Slider slider;
+    //public Slider slider;
 
     private float time;
-    public float potenciaAtual;
     private bool canFire;
     private bool aumentando;
 
     void Start()
     {
-        potenciaAtual = potenciaMin;
-        slider.minValue = potenciaMin;
-        slider.maxValue = potenciaMax;
+        //potenciaAtual = potenciaMin;
+        //slider.minValue = potenciaMin;
+        //slider.maxValue = potenciaMax;
     }
 
     void Update()
     {
-        slider.value = potenciaAtual;
+        //slider.value = potenciaAtual;
 
         if (time <= 0)
         {
@@ -43,20 +43,20 @@ public class CanhaoUI : MonoBehaviour
             canFire = false;
         }
 
-        if (pressionado)
-        {
-            if(potenciaAtual < potenciaMax)
-            {
-                potenciaAtual += Time.deltaTime * sliderSpeed;
-            }
-        }
-        else
-        {
-            if(potenciaAtual > potenciaMin)
-            {
-                potenciaAtual -= Time.deltaTime * sliderSpeed;
-            }
-        }
+        //if (pressionado)
+        //{
+        //    if(potenciaAtual < potenciaMax)
+        //    {
+        //        potenciaAtual += Time.deltaTime * sliderSpeed;
+        //    }
+        //}
+        //else
+        //{
+        //    if(potenciaAtual > potenciaMin)
+        //    {
+        //        potenciaAtual -= Time.deltaTime * sliderSpeed;
+        //    }
+        //}
     }
 
     public void Pressiona()
