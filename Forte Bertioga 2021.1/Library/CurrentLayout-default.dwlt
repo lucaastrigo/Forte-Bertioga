@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 28
+  controlID: 74
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 29
+  controlID: 75
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -329,8 +329,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -546.5
     m_HBaseRangeMax: 546.5
-    m_VBaseRangeMin: -273.5
-    m_VBaseRangeMax: 273.5
+    m_VBaseRangeMin: -284
+    m_VBaseRangeMax: 284
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -347,11 +347,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 1093
-      height: 547
+      height: 568
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 546.5, y: 273.5}
+    m_Translation: {x: 546.5, y: 284}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -359,9 +359,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -546.5
-      y: -273.5
+      y: -284
       width: 1093
-      height: 547
+      height: 568
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1093, y: 568}
@@ -457,11 +457,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.086809486, y: 0.8322878, z: -0.13630722, w: 0.5303103}
     speed: 2
-    m_Value: {x: 0.08680743, y: 0.83226806, z: -0.13630399, w: 0.5302977}
+    m_Value: {x: 0.086809486, y: 0.8322878, z: -0.13630724, w: 0.5303103}
   m_Size:
-    m_Target: 2.9432025
+    m_Target: 4.7432027
     speed: 2
-    m_Value: 2.9432025
+    m_Value: 4.4432025
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -575,8 +575,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 764a0000
-      m_LastClickedID: 19062
+      m_SelectedIDs: 9c540000
+      m_LastClickedID: 0
       m_ExpandedIDs: 52fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -639,22 +639,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Game/Scripts/Canhao Minigame
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/_Game/Scripts/Canhao Minigame
+  - Assets
   m_LastFoldersGridSize: 96
   m_LastProjectPath: "D:\\Lucas\\Unity\\PROJETOS\\Est\xE1gio Faculdade\\Forte-Bertioga\\Forte
     Bertioga 2021.1"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 89}
-    m_SelectedIDs: 54580000
-    m_LastClickedID: 22612
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 72520000
+    m_LastClickedID: 21106
     m_ExpandedIDs: 00000000725200007452000076520000785200007a5200007c5200007e5200008052000082520000f452000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -710,7 +710,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300004e3f0000da6e0000e66e0000ce6b0000946000003e840000c05f00000c6400005e720000ee73000068570200fa6b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -735,7 +735,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 56}
     m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 163
