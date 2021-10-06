@@ -15,6 +15,7 @@ public class CanhaoUI : MonoBehaviour
 
     public GameObject shootButton;
     public GameObject bullet;
+    public GameObject shootFX;
     public Transform bocaCanhao;
     //public Slider slider;
 
@@ -78,6 +79,8 @@ public class CanhaoUI : MonoBehaviour
             FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/canhao/sfx_tiro_alvejar_barril", transform.position);
             time = shootCooldown;
 
+            Instantiate(shootFX, bocaCanhao.position, shootFX.transform.rotation);
+
             //GameObject bo = Instantiate(bullet, bocaCanhao.position, bocaCanhao.rotation);
             //bo.GetComponent<BolaCanhao>().potencia = potenciaAtual;
 
@@ -86,6 +89,9 @@ public class CanhaoUI : MonoBehaviour
             GameObject CreatedCannonball = Instantiate(bullet, bocaCanhao.position, bocaCanhao.rotation);
             CreatedCannonball.GetComponent<Rigidbody>().velocity = bocaCanhao.transform.up * potenciaAtual;
 
+
+            //camera shake
+            Camera.main.GetComponent<CameraScript>().Shake();
         }
     }
 

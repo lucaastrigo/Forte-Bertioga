@@ -1088,6 +1088,7 @@ MonoBehaviour:
   pressionado: 0
   shootButton: {fileID: 316867536}
   bullet: {fileID: 8238092304743790079, guid: 5416272497eaebc4b90d956681eff26d, type: 3}
+  shootFX: {fileID: 3759453063623244621, guid: 990def8e1bbfbfe4b834ef262e12f968, type: 3}
   bocaCanhao: {fileID: 1920107551}
 --- !u!120 &259981214
 LineRenderer:
@@ -3543,7 +3544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.495283, b: 0.495283, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3682,6 +3683,7 @@ GameObject:
   - component: {fileID: 1119556187}
   - component: {fileID: 1119556186}
   - component: {fileID: 1119556189}
+  - component: {fileID: 1119556190}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3786,6 +3788,22 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &1119556190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119556185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f53441efe8d4764ba40e444ba0423c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camTransform: {fileID: 1119556188}
+  shakeDur: 0.25
+  shakeAmount: 0.25
+  decreaseFactor: 1
 --- !u!1 &1155374876
 GameObject:
   m_ObjectHideFlags: 0
