@@ -86,25 +86,5 @@ public class Canhao : MonoBehaviour
                 holding = false;
             }
         }
-
-        //PC rotation
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/canhao/sfx_canhao_mov", transform.position);
-
-            float rotationSpeed = 0.1f;
-            float xAxis = rotationSpeed;
-            transform.Rotate(Vector3.up, xAxis, Space.World);
-        }
-
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/canhao/sfx_canhao_mov", transform.position);
-
-            float rotationSpeed = 0.1f;
-            float xAxis = -rotationSpeed;
-
-            transform.Rotate(Vector3.up, xAxis, Space.World);
-        }
     }
 }
