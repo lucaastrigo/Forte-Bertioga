@@ -92,6 +92,8 @@ public class CanhaoUI : MonoBehaviour
 
             //camera shake
             Camera.main.GetComponent<CameraScript>().Shake();
+
+            //github funciona por favor
         }
     }
 
