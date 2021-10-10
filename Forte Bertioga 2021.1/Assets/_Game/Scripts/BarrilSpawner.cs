@@ -25,17 +25,7 @@ public class BarrilSpawner : MonoBehaviour
 
     void Spawn()
     {
-        //GameObject b = Instantiate(barril, transform.position, transform.rotation);
-        //b.GetComponent<Barril>().vaiPraEsquerda = vaiPraEsquerda;
 
-        //if (Barril.horizontalSpeed > 0)
-        //{
-        //    Barril.horizontalSpeed = CanhaoGLOBAL.barrisCertos / 3;
-        //}
-        //else
-        //{
-        //    Barril.horizontalSpeed = 1;
-        //}
         GameObject b = Instantiate(barril, transform.position, transform.rotation);
         b.GetComponent<Rigidbody>().velocity = transform.right * force;
 

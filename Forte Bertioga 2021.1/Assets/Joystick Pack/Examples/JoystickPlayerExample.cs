@@ -16,7 +16,6 @@ public class JoystickPlayerExample : MonoBehaviour
 
     private void Update()
     {
-      
     }
 
     public void FixedUpdate()

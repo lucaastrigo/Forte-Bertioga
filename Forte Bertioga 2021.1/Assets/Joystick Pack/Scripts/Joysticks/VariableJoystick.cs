@@ -56,7 +56,7 @@ public class VariableJoystick : Joystick
             Vector2 difference = normalised * (magnitude - moveThreshold) * radius;
             background.anchoredPosition += difference;
         }
-        base.HandleInput(magnitude, normalised, radius, cam);
+        base.HandleInput(magnitude * 4, normalised, radius, cam);
     }
 }
 

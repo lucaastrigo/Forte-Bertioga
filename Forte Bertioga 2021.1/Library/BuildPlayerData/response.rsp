@@ -13,7 +13,6 @@
 -a="D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\PlayerScriptAssemblies\FMODUnity.dll"
 -a="D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\PlayerScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
 -a="D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\PlayerScriptAssemblies\FMODUnityResonance.dll"
--a="D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\PlayerScriptAssemblies\StylizedWaterForURP.dll"
 -a="D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\AOT\Newtonsoft.Json.dll"
 -a="D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Portable\Newtonsoft.Json.dll"
 -a="D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll"

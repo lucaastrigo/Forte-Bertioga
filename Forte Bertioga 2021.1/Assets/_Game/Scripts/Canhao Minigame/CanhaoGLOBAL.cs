@@ -6,6 +6,7 @@ using TMPro;
 
 public class CanhaoGLOBAL : MonoBehaviour
 {
+    public int quantAcertos;
     public static int barrisCertos, barrisErrados;
 
     public TextMeshProUGUI acertos;
@@ -13,12 +14,13 @@ public class CanhaoGLOBAL : MonoBehaviour
 
     private void Update()
     {
-        acertos.text = barrisCertos + "/18";
+        acertos.text = barrisCertos + "/" + quantAcertos;
         //erros.text = "Erros: " + barrisErrados;
 
-        if(barrisCertos >= 18)
+        if(barrisCertos >= quantAcertos)
         {
             SceneManager.LoadScene("MovementPrototype");
+            barrisCertos = 0;
         }
     }
 }
