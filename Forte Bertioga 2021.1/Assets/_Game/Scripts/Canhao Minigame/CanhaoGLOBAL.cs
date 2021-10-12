@@ -10,6 +10,7 @@ public class CanhaoGLOBAL : MonoBehaviour
     public static int barrisCertos, barrisErrados;
 
     public TextMeshProUGUI acertos;
+    public GameObject telaVitoria;
     //public TextMeshProUGUI erros;
 
     private void Update()
@@ -19,7 +20,7 @@ public class CanhaoGLOBAL : MonoBehaviour
 
         if(barrisCertos >= quantAcertos)
         {
-            SceneManager.LoadScene("MovementPrototype");
+            telaVitoria.SetActive(true);
             barrisCertos = 0;
         }
     }
