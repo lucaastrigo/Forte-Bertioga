@@ -19,7 +19,7 @@ public class Canhao : MonoBehaviour
         coll = GetComponentInChildren<Collider>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Vector3 direction = (Vector3.forward + Vector3.right) * variableJoystick.Vertical + (Vector3.right + Vector3.back) * variableJoystick.Horizontal;
 
@@ -29,8 +29,8 @@ public class Canhao : MonoBehaviour
 
             FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/canhao/sfx_canhao_mov", transform.position);
 
-            float rotationSpeed = 0.15f;
-            float xAxis = -rotationSpeed;
+            float rotationSpeed = 15f;
+            float xAxis = -rotationSpeed * Time.deltaTime;
 
             transform.Rotate(Vector3.up, xAxis, Space.World);
         }
@@ -40,8 +40,8 @@ public class Canhao : MonoBehaviour
 
             FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/canhao/sfx_canhao_mov", transform.position);
 
-            float rotationSpeed = 0.15f;
-            float xAxis = rotationSpeed;
+            float rotationSpeed = 15f;
+            float xAxis = rotationSpeed * Time.deltaTime;
 
             transform.Rotate(Vector3.up, xAxis, Space.World);
         }

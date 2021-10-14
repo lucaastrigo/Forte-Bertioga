@@ -7,6 +7,8 @@ public class Barril : MonoBehaviour
     //[HideInInspector] public static float horizontalSpeed = 1;
     //[HideInInspector] public bool vaiPraEsquerda;
     [HideInInspector] public bool barrilCerto;
+    public GameObject barrilExplosivo;
+    public GameObject barrilNormal;
 
     //public float speedModifier;
 
@@ -22,12 +24,13 @@ public class Barril : MonoBehaviour
     {
         if (barrilCerto)
         {
-            m.color = Color.red;
-
+            barrilExplosivo.SetActive(true);
+            barrilNormal.SetActive(false);
         }
         else
         {
-            m.color = Color.green;
+            barrilNormal.SetActive(true);
+            barrilExplosivo.SetActive(false);
 
         }
 
