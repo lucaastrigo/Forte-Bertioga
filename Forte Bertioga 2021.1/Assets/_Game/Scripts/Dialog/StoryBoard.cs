@@ -32,4 +32,9 @@ public class StoryBoard : MonoBehaviour
             SceneManager.LoadScene(SceneManager.sceneCount + 1);
         }
     }
+
+    public void PularScene()
+    {
+        SceneManager.LoadScene(SceneManager.sceneCount + 1);
+    }
 }

@@ -2333,15 +2333,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 145706752870323399, guid: 456b78e941191bb4fbd23c9da6ff1eca, type: 3}
       propertyPath: m_LocalScale.x
-      value: 463.054
+      value: 1312.2231
       objectReference: {fileID: 0}
     - target: {fileID: 145706752870323399, guid: 456b78e941191bb4fbd23c9da6ff1eca, type: 3}
       propertyPath: m_LocalScale.y
-      value: 813.637
+      value: 1527.1967
       objectReference: {fileID: 0}
     - target: {fileID: 145706752870323399, guid: 456b78e941191bb4fbd23c9da6ff1eca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 48
+      value: 188
       objectReference: {fileID: 0}
     - target: {fileID: 145706752870323399, guid: 456b78e941191bb4fbd23c9da6ff1eca, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2349,7 +2349,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 145706752870323399, guid: 456b78e941191bb4fbd23c9da6ff1eca, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -278
+      value: -324
       objectReference: {fileID: 0}
     - target: {fileID: 145706752870323399, guid: 456b78e941191bb4fbd23c9da6ff1eca, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3017,10 +3017,10 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.818
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -3259,7 +3259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.4481132, b: 0.4481132, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3440,7 +3440,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 800
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -5136,7 +5136,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -48, y: -51}
+  m_AnchoredPosition: {x: -47.999756, y: -51}
   m_SizeDelta: {x: 442.192, y: 396.6943}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &3881087803671059257
@@ -5351,7 +5351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.09433961, g: 0.09433961, b: 0.09433961, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
