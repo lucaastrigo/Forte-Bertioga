@@ -23,34 +23,20 @@ public class BolaCanhao : MonoBehaviour
         //transform.Translate(Vector3.forward * potencia * speedModifier);
     }
 
-    void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.GetComponent<Barril>() != null)
-        {
-            if (other.gameObject.GetComponent<Barril>().barrilCerto)
-            {
-                CanhaoGLOBAL.barrisCertos++;
-                Destroy(other.gameObject);
-                Destroy(gameObject);
-
-                FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/canhao/sfx_player_acertou_inimigo", transform.position);
-            }
-            else if (!other.gameObject.GetComponent<Barril>().barrilCerto)
-            {
-                CanhaoGLOBAL.barrisErrados++;
-                Destroy(other.gameObject);
-                Destroy(gameObject);
-
-                FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/canhao/sfx_player_acertou_aliado", transform.position);
-            }
-        }
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Water"))
         {
             FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/canhao/sfx_tiro_alvejar_mar", transform.position);
+        }
+
+        if (other.gameObject.CompareTag("Barril"))
+        {
+            CanhaoGLOBAL.barrisCertos += 1;
+            Destroy(other.gameObject);
+            Destroy(gameObject);
+
+            FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/canhao/sfx_player_acertou_inimigo", transform.position);
         }
     }
 }

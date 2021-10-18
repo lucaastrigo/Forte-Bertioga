@@ -17,7 +17,7 @@ public class Barril : MonoBehaviour
     void Start()
     {
         m = GetComponentInChildren<Renderer>().material;
-        Destroy(gameObject, 30f);
+        //Destroy(gameObject, 30f);
     }
 
     void Update()
