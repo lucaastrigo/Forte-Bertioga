@@ -152,6 +152,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-8521343865323682338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_minion_mov/ground
+  m_EditorClassIdentifier: 
+  Name: ground
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-8509476882895732202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,7 +192,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 8893362530772213252}
+  - {fileID: -8521343865323682338}
   MinDistance: 1
   MaxDistance: 20
   Length: 260
@@ -239,7 +259,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 2844642291552446295}
+  - {fileID: 1336595215336870339}
   MinDistance: 0
   MaxDistance: 0
   Length: 66000
@@ -436,7 +456,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1000
+  Length: 390
 --- !u!114 &-6694627181723360166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -628,7 +648,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 300
+  Length: 158
 --- !u!114 &-5428637913015774066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1020,7 +1040,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 39
 --- !u!114 &-3724674544204238269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1132,7 +1152,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 500
+  Length: 114
 --- !u!114 &-3285481344347164585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1368,7 +1388,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 639939763459911042}
+  - {fileID: 8252450157527482770}
   MinDistance: 0
   MaxDistance: 0
   Length: 95379
@@ -1437,7 +1457,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 150
+  Length: 80
 --- !u!114 &-1713992767714709697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1523,7 +1543,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 2384
+  Length: 1800
 --- !u!114 &-1148903364022562931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1689,7 +1709,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 158
+  Length: 30
 --- !u!114 &-537987930009861206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1735,7 +1755,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1365
+  Length: 860
 --- !u!114 &-467182915251420455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1945,15 +1965,11 @@ MonoBehaviour:
   - {fileID: 201900600902463766}
   EditorEvents:
   - {fileID: 6945580039052131357}
-  - {fileID: -3642862995911371214}
   - {fileID: 4811219963657969814}
   - {fileID: 7845979924555964320}
   - {fileID: -7869545129891740059}
-  - {fileID: -2955850021736450585}
-  - {fileID: -249390458075534048}
   - {fileID: 262817895780592906}
   - {fileID: -3421320304482675509}
-  - {fileID: 7888887898052709917}
   - {fileID: 4765811644233933088}
   - {fileID: -9176746908011458156}
   - {fileID: 251962325235664132}
@@ -1966,22 +1982,17 @@ MonoBehaviour:
   - {fileID: -3285481344347164585}
   - {fileID: 6228427999201438466}
   - {fileID: -7012628297487017090}
-  - {fileID: -9215149261211194817}
   - {fileID: -2078026908340361155}
-  - {fileID: -3724674544204238269}
-  - {fileID: 4173371729323710438}
   - {fileID: -1974467863772422045}
   - {fileID: 6040378835860797176}
   - {fileID: -553497471020097695}
   - {fileID: -5479296344752555936}
-  - {fileID: -7819854942761513113}
-  - {fileID: 5492268228606805735}
   EditorParameters: []
   MasterBanks:
   - {fileID: 201900600902463766}
   StringsBanks:
   - {fileID: 6317572382596849415}
-  stringsBankWriteTime: 637690709878071235
+  stringsBankWriteTime: 637702626375447002
   cacheVersion: 6
 --- !u!114 &60732811157412357
 MonoBehaviour:
@@ -2064,7 +2075,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssests/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637690709878061255
+  lastModified: 637702626375307047
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -2113,7 +2124,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 158
+  Length: 33
 --- !u!114 &340472108385553253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2260,6 +2271,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &1336595215336870339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_ambi_forte/local
+  m_EditorClassIdentifier: 
+  Name: local
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &1484508336485239889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2338,6 +2369,26 @@ MonoBehaviour:
   lastModified: 637598114007929914
   LoadResult: 0
   FileSizes: []
+  Exists: 1
+--- !u!114 &1873360180540034914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mus_canhao/vitoria
+  m_EditorClassIdentifier: 
+  Name: vitoria
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
 --- !u!114 &1961276592868361426
 MonoBehaviour:
@@ -2971,7 +3022,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1826
+  Length: 300
 --- !u!114 &4360492928164369092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3140,7 +3191,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 180
+  Length: 114
 --- !u!114 &4789456398711540378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3427,7 +3478,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 158
+  Length: 30
 --- !u!114 &5523378436740239415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3556,7 +3607,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1826
+  Length: 320
 --- !u!114 &6068873384618625119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3639,7 +3690,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1365
+  Length: 720
 --- !u!114 &6240145315881324474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3679,13 +3730,13 @@ MonoBehaviour:
   Path: Assets/StreamingAssests/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637690709878071235
+  lastModified: 637702626375447002
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 2838
+    Value: 2436
   - Name: Mobile
-    Value: 2838
+    Value: 2436
   Exists: 1
 --- !u!114 &6324972652880347890
 MonoBehaviour:
@@ -3853,10 +3904,11 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: 1873360180540034914}
   MinDistance: 0
   MaxDistance: 0
-  Length: 64800
+  Length: 73000
 --- !u!114 &7202069219080958399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4119,6 +4171,26 @@ MonoBehaviour:
     data2: 0
   Exists: 1
 --- !u!114 &8199193943018563707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_ambi_minigame_palicada/local
+  m_EditorClassIdentifier: 
+  Name: local
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &8252450157527482770
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

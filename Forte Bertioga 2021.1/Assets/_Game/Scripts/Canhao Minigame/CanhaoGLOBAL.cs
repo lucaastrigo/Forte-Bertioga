@@ -13,6 +13,13 @@ public class CanhaoGLOBAL : MonoBehaviour
     public GameObject telaVitoria;
     //public TextMeshProUGUI erros;
 
+    AudioSource audioSource;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     private void Update()
     {
         acertos.text = barrisCertos + "/" + quantAcertos;
@@ -26,7 +33,10 @@ public class CanhaoGLOBAL : MonoBehaviour
 
     IEnumerator WaitLoadScene()
     {
+
         yield return new WaitForSeconds(1f);
+        audioSource.enabled = false;
+
         telaVitoria.SetActive(true);
 
     }
