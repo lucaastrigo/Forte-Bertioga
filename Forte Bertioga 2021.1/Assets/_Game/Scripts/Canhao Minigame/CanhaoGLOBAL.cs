@@ -20,8 +20,20 @@ public class CanhaoGLOBAL : MonoBehaviour
 
         if(barrisCertos >= quantAcertos)
         {
-            telaVitoria.SetActive(true);
-            barrisCertos = 0;
+            StartCoroutine(WaitLoadScene());
         }
+    }
+
+    IEnumerator WaitLoadScene()
+    {
+        yield return new WaitForSeconds(1f);
+        telaVitoria.SetActive(true);
+
+    }
+
+    public void ResetAcertos()
+    {
+        barrisCertos = 0;
+
     }
 }

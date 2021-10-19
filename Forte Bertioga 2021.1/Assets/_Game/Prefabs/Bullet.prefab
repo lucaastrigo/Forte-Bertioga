@@ -111,7 +111,7 @@ SphereCollider:
   m_GameObject: {fileID: 8238092304743790079}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.82
   m_Center: {x: 0, y: 0, z: 0}
@@ -127,6 +127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5df105e65caa3b24394d7cfd98558311, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waterVFX: {fileID: 3861106685041853562, guid: fa7950e0482672a46a991de676f7489b, type: 3}
+  explosion: {fileID: 5317676018387014770, guid: 540ff9f7e45d4b248a9c4cd9f9ca98f7, type: 3}
 --- !u!135 &1252278292194732364
 SphereCollider:
   m_ObjectHideFlags: 0
