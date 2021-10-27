@@ -12,8 +12,6 @@ public class PlayerMovement : MonoBehaviour
     public Animator anim;
     public GameObject camera;
 
-    private bool zoom;
-
     NavMeshAgent agent;
     Camera cam;
 
@@ -33,70 +31,70 @@ public class PlayerMovement : MonoBehaviour
             agent.isStopped = true;
         }
 
-        if(!zoom & cam.orthographicSize <= 15)
-        {
-            cam.orthographicSize += Time.deltaTime * speedCamera;
-        }
+        //if(!zoom & cam.orthographicSize <= 15)
+        //{
+        //    cam.orthographicSize += Time.deltaTime * speedCamera;
+        //}
     }
 
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Room"))
-        {
-            Room scriptRoom = other.GetComponent<Room>();
+        //if (other.gameObject.CompareTag("Room"))
+        //{
+        //    Room scriptRoom = other.GetComponent<Room>();
 
-            if(scriptRoom != null)
-            {
-                scriptRoom.EnterRoom();
+        //    if(scriptRoom != null)
+        //    {
+        //        scriptRoom.EnterRoom();
 
-                if (scriptRoom.hasZoom)
-                {
-                    cam.orthographicSize = 7.5f;
-                    zoom = true;
-                }
-            }
-        }
+        //        if (scriptRoom.hasZoom)
+        //        {
+        //            cam.orthographicSize = 7.5f;
+        //            zoom = true;
+        //        }
+        //    }
+        //}
 
         if (other.gameObject.CompareTag("Minigame"))
         {
             other.gameObject.GetComponent<MiniGameAccess>().AccessMinigame();
         }
     }
-    void OnTriggerStay(Collider other)
-    {
-        if (other.gameObject.CompareTag("Room"))
-        {
-            Room scriptRoom = other.GetComponent<Room>();
+    //void OnTriggerStay(Collider other)
+    //{
+    //    if (other.gameObject.CompareTag("Room"))
+    //    {
+    //        Room scriptRoom = other.GetComponent<Room>();
 
-            if (scriptRoom != null)
-            {
-                scriptRoom.EnterRoom();
+    //        if (scriptRoom != null)
+    //        {
+    //            scriptRoom.EnterRoom();
 
-                if (scriptRoom.hasZoom)
-                {
-                    cam.orthographicSize = 7.5f;
-                    zoom = true;
-                }
-            }
-        }
-    }
+    //            if (scriptRoom.hasZoom)
+    //            {
+    //                cam.orthographicSize = 7.5f;
+    //                zoom = true;
+    //            }
+    //        }
+    //    }
+    //}
 
-    void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.CompareTag("Room"))
-        {
-            Room scriptRoom = other.GetComponent<Room>();
+    //void OnTriggerExit(Collider other)
+    //{
+    //    if (other.gameObject.CompareTag("Room"))
+    //    {
+    //        Room scriptRoom = other.GetComponent<Room>();
 
-            if (scriptRoom != null)
-            {
-                scriptRoom.ExitRoom();
+    //        if (scriptRoom != null)
+    //        {
+    //            scriptRoom.ExitRoom();
 
-                if (scriptRoom.hasZoom)
-                {
-                    zoom = false;
-                }
-            }
-        }
-    }
+    //            if (scriptRoom.hasZoom)
+    //            {
+    //                zoom = false;
+    //            }
+    //        }
+    //    }
+    //}
 }
