@@ -76,7 +76,7 @@ public class CanhaoUI : MonoBehaviour
     {
         if (canFire)
         {
-            FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/canhao/sfx_tiro_alvejar_barril", transform.position);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/canhao/sfx_canhao_tiro", transform.position);
             time = shootCooldown;
 
             Instantiate(shootFX, bocaCanhao.position, transform.rotation);

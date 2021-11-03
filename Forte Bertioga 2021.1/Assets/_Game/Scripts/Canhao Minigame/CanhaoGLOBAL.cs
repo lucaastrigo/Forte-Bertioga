@@ -18,6 +18,7 @@ public class CanhaoGLOBAL : MonoBehaviour
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        ResetAcertos();
     }
 
     private void Update()

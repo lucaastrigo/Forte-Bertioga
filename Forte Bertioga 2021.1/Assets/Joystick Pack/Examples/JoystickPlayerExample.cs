@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class JoystickPlayerExample : MonoBehaviour
 {
-    public float speed;
+    public float speed, walkingSoundSpeed;
     public VariableJoystick variableJoystick;
     public Rigidbody rb;
     public SpriteRenderer sprite;
@@ -12,10 +12,17 @@ public class JoystickPlayerExample : MonoBehaviour
 
     private void Start()
     {
+        InvokeRepeating("CallFootsteps", 0, walkingSoundSpeed);
     }
 
-    private void Update()
+    void CallFootsteps()
     {
+        if(variableJoystick.Vertical != 0 || variableJoystick.Horizontal != 0)
+        {
+            print("moving");
+
+            FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/exploracao_forte/sfx_player_passos", transform.position);
+        }
     }
 
     public void FixedUpdate()
