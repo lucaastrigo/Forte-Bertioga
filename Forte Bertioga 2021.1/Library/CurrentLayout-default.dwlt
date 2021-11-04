@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 991
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_LoadedToolbars:
   - {fileID: 21}
   m_MainToolbar: {fileID: 21}
-  m_LastLoadedLayoutName: Luska Layout
+  m_LastLoadedLayoutName: 
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 725
+  controlID: 19
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 756
+  controlID: 20
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 757
+  controlID: 21
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -407,9 +407,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -42.816235, y: 11.773474, z: -106.77247}
+    m_Target: {x: 44.498714, y: -3.5783992, z: 43.92732}
     speed: 2
-    m_Value: {x: -42.816235, y: 11.773474, z: -106.77247}
+    m_Value: {x: 44.498714, y: -3.5783992, z: 43.92732}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -456,13 +456,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.06357154, y: 0.88344646, z: -0.1256769, w: 0.44687322}
+    m_Target: {x: 0.26323396, y: -0.7033231, z: 0.3206856, w: 0.5772754}
     speed: 2
-    m_Value: {x: 0.063571244, y: 0.88344234, z: -0.12567632, w: 0.44687113}
+    m_Value: {x: 0.26188263, y: -0.70465446, z: 0.32001677, w: 0.5766012}
   m_Size:
-    m_Target: 25.057589
+    m_Target: 9.514928
     speed: 2
-    m_Value: 25.057589
+    m_Value: 9.105194
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -480,7 +480,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0.06626121, y: -0.0000042087313, z: 0.0000004056264, w: 0.9978047}
+  m_LastSceneViewRotation: {x: 0.10659522, y: 0.014910323, z: -0.001597229, w: 0.99420017}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -575,10 +575,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 2e59ffffa05bffff0c6cffffa06dffff6c6fffff5c7bffffcc80ffff6e81ffff3082ffff3a88ffff5295ffff90b9ffff74daffff10e3ffff1ce3ffff62ecffff66ecffff6aecffffd8ecffff86eeffffc2efffffdaf0ffffc2f2fffffaf3ffff0efbfffff07e0000147f0000bc800000fe8000009c9b0000fca2000082000100b2000100dc0001008c0b0100be0b0100120c0100420c010070180100da190100a81c0100b4280100f62801001429010056290100c43f01000440010018400100
+      scrollPos: {x: 0, y: 507}
+      m_SelectedIDs: 88880000
+      m_LastClickedID: 34952
+      m_ExpandedIDs: 96d1ffffccd7ffff9edbffff28e6ffff0eeaffff52fbffffa4610000d66500002e710000c4880000f4890000668a0000c08a0000a68c0000fe8c0000268e0000948f0000ae8f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -640,23 +640,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Game/Scripts/Canhao Minigame
+    - Assets/_Game/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/_Game/Scripts/Canhao Minigame
+  - Assets/_Game/Scenes
   m_LastFoldersGridSize: 96
   m_LastProjectPath: "D:\\Lucas\\Unity\\PROJETOS\\Est\xE1gio Faculdade\\Forte-Bertioga\\Forte
     Bertioga 2021.1"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 91}
-    m_SelectedIDs: f85e0000
-    m_LastClickedID: 24312
-    m_ExpandedIDs: 000000002c5b0000525b00005e5b00002a5c0000f65e000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: e2530000
+    m_LastClickedID: 21474
+    m_ExpandedIDs: 0000000022530000a8530000d053000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -684,7 +684,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002c5b000000ca9a3b
+    m_ExpandedIDs: 0000000022530000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
