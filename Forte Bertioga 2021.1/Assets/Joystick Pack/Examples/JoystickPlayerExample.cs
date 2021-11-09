@@ -19,8 +19,6 @@ public class JoystickPlayerExample : MonoBehaviour
     {
         if(variableJoystick.Vertical != 0 || variableJoystick.Horizontal != 0)
         {
-            print("moving");
-
             FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/exploracao_forte/sfx_player_passos", transform.position);
         }
     }
