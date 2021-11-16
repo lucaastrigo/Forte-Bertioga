@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/_Game/Scenes/MinigameCanhao.unity
+- path: Assets/_Game/Scenes/MovementPrototype.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
