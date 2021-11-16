@@ -6,8 +6,8 @@ using TMPro;
 
 public class Interativo : MonoBehaviour
 {
-    public string textinho;
-    public TextMeshProUGUI tmp;
+    public DialogoObejto textoDialogo;
+    public GameObject dialogoUI;
 
     bool ativo;
 
@@ -28,25 +28,9 @@ public class Interativo : MonoBehaviour
             {
                 if (hit.collider.tag == "Interativo" && !ativo)
                 {
-                    StartCoroutine(Dialogue());
+                    dialogoUI.GetComponent<DialogoUI>().MostrarDialogo(textoDialogo);
                 }
             }
-
-            if (ativo)
-            {
-                tmp.gameObject.SetActive(false);
-                ativo = false;
-            }
         }
-    }
-
-    IEnumerator Dialogue()
-    {
-        tmp.gameObject.SetActive(true);
-        tmp.text = textinho;
-
-        yield return new WaitForSeconds(0.25f);
-
-        ativo = true;
     }
 }
