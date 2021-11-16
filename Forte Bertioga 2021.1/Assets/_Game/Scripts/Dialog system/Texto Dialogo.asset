@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Texto Dialogo
   m_EditorClassIdentifier: 
   dialogo:
-  - 'bruno: alo'
-  - 'trigo: ola'
+  - dialogo teste
+  - proxima frase teste
