@@ -8,7 +8,6 @@ public class DialogoObejto : ScriptableObject
     [SerializeField] [TextArea] private string[] dialogo;
 
     public string[] Dialogo => dialogo;
-    // Start is called before the first frame update
     void Start()
     {
         

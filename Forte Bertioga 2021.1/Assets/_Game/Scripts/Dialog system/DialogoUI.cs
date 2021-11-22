@@ -6,8 +6,10 @@ using UnityEngine.UI;
 
 public class DialogoUI : MonoBehaviour
 {
+    StoryBoard storyBoard => FindObjectOfType<StoryBoard>();
     [SerializeField] private GameObject caixaDialogo;
     [SerializeField] private TMP_Text textLabel;
+    public AudioSource audioSource;
     //[SerializeField] private DialogoObejto testeDialogo;
 
     private EfeitoTypewriter efeitoTypewriter;
@@ -40,6 +42,31 @@ public class DialogoUI : MonoBehaviour
             //FindObjectOfType<AudioControl>().Play("ProximaFala");
         }
 
+        FecharDialogo();
+    }  
+
+
+
+    public void MostrarDialogoCutscene(DialogoCutscene dialigoObjeto)
+    {
+        dialogo = true;
+        caixaDialogo.SetActive(true);
+        StartCoroutine(PassarDialogoCutscene(dialigoObjeto));
+    }
+
+    private IEnumerator PassarDialogoCutscene(DialogoCutscene dialogoObjeto)
+    {
+        for (int i = 0; i < dialogoObjeto.Strings.Count; i++)
+        {
+            yield return efeitoTypewriter.Run(dialogoObjeto.Strings[i].falas, textLabel, espaco);
+            espaco.enabled = true;
+            if (dialogoObjeto.Strings[i].audioString != null) audioSource.PlayOneShot(dialogoObjeto.Strings[i].audioString);
+            yield return new WaitUntil(() => Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began || Input.GetKeyDown(KeyCode.Space));
+            if(dialogoObjeto.Strings[i].passaDialogo)
+            {
+                storyBoard.NextItem();
+            }
+        }
         FecharDialogo();
     }
 

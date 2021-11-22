@@ -7,6 +7,7 @@ using TMPro;
 public class Interativo : MonoBehaviour
 {
     public DialogoObejto textoDialogo;
+    public DialogoCutscene textoCutscene;
     public GameObject dialogoUI;
 
     bool ativo;
@@ -37,5 +38,10 @@ public class Interativo : MonoBehaviour
         {
             dialogoUI.GetComponent<DialogoUI>().MostrarDialogo(textoDialogo);
         }
+    }
+
+    public void ComecaDialogo()
+    {
+        dialogoUI.GetComponent<DialogoUI>().MostrarDialogoCutscene(textoCutscene);
     }
 }

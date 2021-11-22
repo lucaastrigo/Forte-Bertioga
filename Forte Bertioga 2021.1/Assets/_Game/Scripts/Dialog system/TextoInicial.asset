@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67a6ecbba3c7524cb75e89183f96030, type: 3}
+  m_Name: TextoInicial
+  m_EditorClassIdentifier: 
+  dialogo:
+  - dialogo teste
+  - proxima frase teste
+  - terceira frase teste
+  - quatro frases
+  - cinco cinco cinco cinco cinco

@@ -391,10 +391,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   SwitchSettingsMigration: 1
-  HasSourceProject: 0
+  HasSourceProject: 1
   HasPlatforms: 1
   sourceProjectPath: 
-  sourceBankPath: Assets/StreamingAssests
+  sourceBankPath: D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1\Assets\StreamingAssests
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
