@@ -33,16 +33,17 @@ public class DialogoUI : MonoBehaviour
         {
             yield return efeitoTypewriter.Run(dialogo, textLabel, espaco);
             espaco.enabled = true;
-            yield return new WaitUntil(() => Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began);
-            textLabel.text = string.Empty;
-            espaco.enabled = false;
+            yield return new WaitUntil(() => Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began || Input.GetKeyDown(KeyCode.Space) || caixaDialogo.GetComponent<DialogBox>().clicked);
+            yield return new WaitForSeconds(0.1f);
+            caixaDialogo.GetComponent<DialogBox>().clicked = false;
+            //textLabel.text = string.Empty;
             //FindObjectOfType<AudioControl>().Play("ProximaFala");
         }
 
         FecharDialogo();
     }
 
-    private void FecharDialogo()
+    public void FecharDialogo()
     {
         dialogo = false;
         caixaDialogo.SetActive(false);

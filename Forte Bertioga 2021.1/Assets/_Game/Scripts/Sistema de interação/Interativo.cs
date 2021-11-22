@@ -32,5 +32,10 @@ public class Interativo : MonoBehaviour
                 }
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.KeypadEnter))
+        {
+            dialogoUI.GetComponent<DialogoUI>().MostrarDialogo(textoDialogo);
+        }
     }
 }
