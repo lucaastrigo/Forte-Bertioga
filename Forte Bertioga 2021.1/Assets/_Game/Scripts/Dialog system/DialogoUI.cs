@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class DialogoUI : MonoBehaviour
 {
     StoryBoard storyBoard => FindObjectOfType<StoryBoard>();
-    [SerializeField] private GameObject caixaDialogo;
+    public GameObject caixaDialogo;
     [SerializeField] private TMP_Text textLabel;
     public AudioSource audioSource;
     //[SerializeField] private DialogoObejto testeDialogo;
@@ -25,7 +25,12 @@ public class DialogoUI : MonoBehaviour
     public void MostrarDialogo(DialogoObejto dialigoObjeto)
     {
         dialogo = true;
-        caixaDialogo.SetActive(true);
+
+        if (caixaDialogo.activeSelf == false)
+        {
+            caixaDialogo.SetActive(true);
+        }
+
         StartCoroutine(PassarDialogo(dialigoObjeto));
     }
 
@@ -58,22 +63,43 @@ public class DialogoUI : MonoBehaviour
     {
         for (int i = 0; i < dialogoObjeto.Strings.Count; i++)
         {
+            if (dialogoObjeto.Strings[i].audioString != null)
+            {
+                audioSource.PlayOneShot(dialogoObjeto.Strings[i].audioString);
+            }
+
             yield return efeitoTypewriter.Run(dialogoObjeto.Strings[i].falas, textLabel, espaco);
+
             espaco.enabled = true;
-            if (dialogoObjeto.Strings[i].audioString != null) audioSource.PlayOneShot(dialogoObjeto.Strings[i].audioString);
+
             yield return new WaitUntil(() => Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began || Input.GetKeyDown(KeyCode.Space));
+
             if(dialogoObjeto.Strings[i].passaDialogo)
             {
                 storyBoard.NextItem();
             }
         }
+
         FecharDialogo();
     }
 
     public void FecharDialogo()
     {
-        dialogo = false;
-        caixaDialogo.SetActive(false);
+
+        if (caixaDialogo.activeSelf == true)
+        {
+            caixaDialogo.SetActive(false);
+        }
+
         textLabel.text = string.Empty;
+
+        StartCoroutine(Finito());
+    }
+
+    IEnumerator Finito()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        dialogo = false;
     }
 }

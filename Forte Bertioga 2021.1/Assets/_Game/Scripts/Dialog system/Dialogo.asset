@@ -15,191 +15,97 @@ MonoBehaviour:
   Strings:
   - passaDialogo: 0
     falas: "Cara que maneiro esse lugar, tudo t\xE3o poderoso, "
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: a6fdd24d7d14a4b4d890da61f83a45ec, type: 3}
   - passaDialogo: 1
     falas: "parece at\xE9 que algu\xE9m importante esteve \r\naqui.\r"
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
   - passaDialogo: 0
     falas: "PJ: Eu n\xE3o devia ter virado a noite inteira jogando ontem."
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: f7c6c288c7a57dd479ab2c124ffd4a63, type: 3}
   - passaDialogo: 1
     falas: "PJ: Talvez por aqui tenha um lugarzinho s\xF3 para dar uma descansada
       boa e voltar para essa \r\nexplora\xE7\xE3o por aqui"
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
   - passaDialogo: 1
     falas: "PJ: Acho que n\xE3o vai ter problema descansar um pouquinho\r\n"
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
   - passaDialogo: 1
     falas: "Ol\xE1, poderia fazer o favor de acordar, voc\xEA n\xE3o \r\ndeveria
       dormir dentro do Forte"
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
   - passaDialogo: 0
     falas: Finalmente acordaste, pensava que iria ficar o dia inteiro parecendo um
       defunto
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
   - passaDialogo: 1
     falas: "ou ao menos, dormindo como um.\r"
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
   - passaDialogo: 0
     falas: 'Olha, desculpa por dormir aqui, foi sem querer, '
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
   - passaDialogo: 0
     falas: "o passeio da escola estava muito legal, mas \r\nestava cansado ai vim
       aqui s\xF3 para..."
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
   - passaDialogo: 1
     falas: "AAAAAAAAAAAAAAAHHHHHH!!!!!!! COMO EU ESTOU VENDO FANTASMAS!!!!!!!!!!!!!!!!!
       EU \r\nS\xD3 QUERIA DAR UMA COCHILADINHA."
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
   - passaDialogo: 1
     falas: "Acalme-se por favor, n\xE3o voc\xEA n\xE3o morreu eu sou apenas uma representa\xE7\xE3o
       \r\ndo Guardi\xE3o deste Forte."
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
   - passaDialogo: 0
     falas: "AAAAAAAAAAAAAAAAAAHHHHH, espera eu n\xE3o morri?"
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
   - passaDialogo: 0
     falas: MAS ISSO SIGNIFICA QUE EU ESTOU FALANDO COM UM FANTASMA! AAAAAAAAAAHH!
       QUERO IR PRA CASA!
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
   - passaDialogo: 1
     falas: "Prometo que vou fazer tudo para ser algu\xE9m melhor! Vou tratar meus
       pais bem, dar mais comida ao meu pet e..."
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
   - passaDialogo: 1
     falas: COF* COF*
     audioString: {fileID: 0}
   - passaDialogo: 0
     falas: Por favor, calma! Calma!
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
   - passaDialogo: 0
     falas: "Por favor, calma! Calma! Certo... agora que os \xE2nimos j\xE1 se acalmaram,
       deixe me apresentar"
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
   - passaDialogo: 0
     falas: "Muito prazer! Sou Hans Staden, sou o guardi\xE3o deste forte que voc\xEA
       se encontra, o Forte Bertioga!"
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
   - passaDialogo: 1
     falas: "E voc\xEA? Quem seria?"
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
   - passaDialogo: 0
     falas: "Eu sou (*Insira seu nome aqui*), estava em uma excurs\xE3o com minha
       turma por aqui no Forte"
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
   - passaDialogo: 1
     falas: "Mas como fiquei jogando at\xE9 tarde eu acabei dando uma cochilada.."
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
   - passaDialogo: 0
     falas: "Ei ei, espere um pouco! N\xE3o quer saber o que realmente \xE9 o Forte
-      Bertioga"
-    audioString: {fileID: 0}
+      Bertioga?"
+    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
   - passaDialogo: 1
     falas: "O qual protejo at\xE9 mesmo ap\xF3s meu falecimento, nas minhas hist\xF3rias
       e tudo mais. (faz tempo que n\xE3o falo com ningu\xE9m...) *diz entre os dentes."
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
   - passaDialogo: 1
     falas: "S\xE9rio que divertido!!!!!!!!! Mas n\xE3o vai ter problema para meus
-      amigos e professores de eu simplesmente desaparecer."
-    audioString: {fileID: 0}
+      amigos e professores de eu simplesmente desaparecer?"
+    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
   - passaDialogo: 1
     falas: "N\xE3o se preocupe, o presente estar\xE1 pausado enquanto estivermos
       nessa nossa viagem, que tal ent\xE3o?\r"
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
   - passaDialogo: 1
     falas: Por mim ok, vamos senhor Hans.
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: "Com muito prazer.\r"
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: 
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: "Bom com isso voc\xEA pode explorar o forte e ver como ele era antigamente"
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: Por mim tudo bem.
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: "Que estranho, parece que esse Forte est\xE1 diferente da vers\xE3o que
-      ajudamos aquele pessoal \r\nconstruir"
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: "\xC9 porque est\xE1! O novo governador quis fazer alumas altera\xE7\xF5es
-      no projeto inicial, por isso que est\xE1 diferente. Fico surpreso que notou."
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: "Ok, senhor, podemos come\xE7ar os testes com os canh\xF5es. Espero que
-      continuem funcionando \r\nnormalmente...\r"
-    audioString: {fileID: 0}
-  - passaDialogo: 0
-    falas: "Ah, ainda bem. Vejo que j\xE1 se encontra no recinto."
-    audioString: {fileID: 0}
-  - passaDialogo: 0
-    falas: "Pe\xE7o perd\xE3o, sou Tom\xE9 de Souza, o \rgovernador por essas partes."
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: "Voc\xEA deve ser o mo\xE7o que ir\xE1 fazer a checagem do canh\xE3o,
-      certo?"
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: Exato
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: "Mas afinal para o que serve essa checagem dos canh\xF5es?"
-    audioString: {fileID: 0}
-  - passaDialogo: 0
-    falas: "Tendo como foco este treino para a prote\xE7\xE3o destas terras, mesmo
-      se nunca venhamos a ser \r\natacados realmente temos como nos defender a caso
-      ocorra isso"
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: "Tamb\xE9m servindo para desenhar toda a linha territorial do Brasil.\r"
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: Uau! Isto nunca me falaram antes, que legal de saber
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: "Bom, chega de enrola\xE7\xE3o. Comece logo os testes dos canh\xF5es"
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: "\xD3timo, aonde eu fui me meter e agora. O que eu fa\xE7o, Hans"
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: "N\xE3o tem jeito. Tente mirar o canh\xE3o nos barris de cores inimigas,
-      acho que pode te ajudar \r\nnisso"
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: Certo, melhor fazer antes que sobre pra mim
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: "Uau! Nunca tinha atirado em um canh\xE3o, isso foi sensacional!"
-    audioString: {fileID: 0}
-  - passaDialogo: 0
-    falas: "Bom pelo jeito os canh\xF5es ainda se encontram em um bom estado, mesmo
-      com o tempo que \r\npassou sem os utilizar"
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: Muito obrigado jovem, se precisar de algo verei de te ajudar
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: "N\xE3o tem de que, eu me diverti bastante!"
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: "E agora? Por acaso consegui mudar sua opini\xE3o? Sobre o motivo deste
-      Forte ser protegido e \r\nguardado na hist\xF3ria do Brasil."
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: "Conseguiu sim! Isso tudo \xE9 incr\xEDvel! Tem mais algum lugar que possamos
-      ajudar?"
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: "H\xE1 mais um local para irmos."
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: 
-    audioString: {fileID: 0}
-  - passaDialogo: 1
-    falas: 
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}

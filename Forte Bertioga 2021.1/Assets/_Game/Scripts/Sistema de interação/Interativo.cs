@@ -10,7 +10,7 @@ public class Interativo : MonoBehaviour
     public DialogoCutscene textoCutscene;
     public GameObject dialogoUI;
 
-    bool ativo;
+    [HideInInspector]public bool ativo;
 
     void Start()
     {
@@ -27,15 +27,18 @@ public class Interativo : MonoBehaviour
 
             if (Physics.Raycast(ray2, out hit))
             {
-                if (hit.collider.tag == "Interativo" && !ativo)
+                if (hit.collider.tag == "Interativo"&& dialogoUI.GetComponent<DialogoUI>().caixaDialogo.activeSelf == false)
                 {
                     dialogoUI.GetComponent<DialogoUI>().MostrarDialogo(textoDialogo);
                 }
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.KeypadEnter))
+        print(dialogoUI.GetComponent<DialogoUI>().caixaDialogo.activeSelf);
+
+        if (Input.GetKeyDown(KeyCode.KeypadEnter) && dialogoUI.GetComponent<DialogoUI>().caixaDialogo.activeSelf == false)
         {
+            print("tomei no cu");
             dialogoUI.GetComponent<DialogoUI>().MostrarDialogo(textoDialogo);
         }
     }
