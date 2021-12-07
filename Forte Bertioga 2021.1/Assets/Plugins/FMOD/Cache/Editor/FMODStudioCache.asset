@@ -133,6 +133,46 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-8815281088103054830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_passos/ground
+  m_EditorClassIdentifier: 
+  Name: ground
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-8571111975445858612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_ambi_forte/local
+  m_EditorClassIdentifier: 
+  Name: local
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-8540684850057334979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,6 +280,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-8219713296970063054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/cutscene/sfx_cutscene_bocejo
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/cutscene/sfx_cutscene_bocejo
+  guid: dbbec7b3d02a0d409b2c7651e45a9d6f
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1432
 --- !u!114 &-8121891593351799033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,6 +470,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-7689205949630864590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_pause
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_pause
+  guid: 88c33c8208b38d428b098e65dcdfef86
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 39
 --- !u!114 &-7633596897805162728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -824,6 +910,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-6048896538185726348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music/mus_cutscene
+  m_EditorClassIdentifier: 
+  Path: event:/music/mus_cutscene
+  guid: 2073b35b6cd2b74a8686ab800c3c527d
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 24000
 --- !u!114 &-6027390848214179265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -887,6 +996,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-5808145424087661088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/sfx/pali\xE7ada/sfx_minion_coleta_madeira"
+  m_EditorClassIdentifier: 
+  Path: "event:/sfx/pali\xE7ada/sfx_minion_coleta_madeira"
+  guid: c6df2d836228e141befea833c2a554cf
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 80
 --- !u!114 &-5479296344752555936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -996,6 +1128,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-4798523019069027706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ambientes/sfx_ambi_forte
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ambientes/sfx_ambi_forte
+  guid: 2e0bf6544b859f4583bfbfc76afb113d
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8571111975445858612}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 66000
 --- !u!114 &-4786339759079562855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1060,6 +1216,52 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-4724289793228627864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_touch_areia
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_touch_areia
+  guid: 48ed6574c6a5f2488a5194d355dfd3bb
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 114
+--- !u!114 &-4712162670503263554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_touch
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_touch
+  guid: 98e7a82f1d2f494790e123d6f804f536
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 30
 --- !u!114 &-4570658540192310409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1100,6 +1302,30 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-4556045089724100226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music/mus_canhao
+  m_EditorClassIdentifier: 
+  Path: event:/music/mus_canhao
+  guid: 8dc91ff1a5ab814cb410845ff5b2a430
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4384215615308804430}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 73000
 --- !u!114 &-4476672084793217734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1143,6 +1369,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-4430992434509851348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_touch_grama
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_touch_grama
+  guid: 610ddbfe6c82c24e9e7fb2d1c97e8b64
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-4341351284780932719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1319,6 +1568,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-4092942380924549725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_ambi_minigame_palicada/local
+  m_EditorClassIdentifier: 
+  Name: local
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-3939485608215838550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1451,6 +1720,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-3609505044117197928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/cutscene/sfx_cutscene_trovao
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/cutscene/sfx_cutscene_trovao
+  guid: 8d6ed018285cfe41986a779c19acac0a
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6070
 --- !u!114 &-3528148781862102247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1557,6 +1849,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-3106391530614549647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssests/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637738836698316239
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2918
+  - Name: Mobile
+    Value: 2918
+  Exists: 1
 --- !u!114 &-3042087525835554048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1766,6 +2081,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-2328018053529672977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_selected_menu
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_selected_menu
+  guid: d5009dc09c71c34792e11feda97a51f4
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 30
 --- !u!114 &-2154839905627606935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1942,6 +2280,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-1513289136783425659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_back_menu
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_back_menu
+  guid: 483e058900c9c442853bfdd7a890eaf0
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 33
 --- !u!114 &-1396801605120384574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2005,6 +2366,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1800
+--- !u!114 &-1374143756967291964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/personagens/sfx_voz_crianca
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/personagens/sfx_voz_crianca
+  guid: 327c78838572c14b99d7b30b0da406f5
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 490
 --- !u!114 &-1284575318619575788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2025,6 +2409,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-1226835509837260534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/sfx/pali\xE7ada/sfx_minion3_selecao"
+  m_EditorClassIdentifier: 
+  Path: "event:/sfx/pali\xE7ada/sfx_minion3_selecao"
+  guid: b0f40c6ce7184b4f8513d5652f9af9f2
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 390
 --- !u!114 &-1148903364022562931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2462,39 +2869,71 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 6317572382596849415}
-  - {fileID: 201900600902463766}
+  - {fileID: -3106391530614549647}
+  - {fileID: 8658036526259841657}
   EditorEvents:
-  - {fileID: 6945580039052131357}
-  - {fileID: 4811219963657969814}
-  - {fileID: 7845979924555964320}
-  - {fileID: -7869545129891740059}
-  - {fileID: 262817895780592906}
-  - {fileID: -3421320304482675509}
-  - {fileID: 4765811644233933088}
-  - {fileID: -9176746908011458156}
-  - {fileID: 251962325235664132}
-  - {fileID: -8509476882895732202}
-  - {fileID: 4313946223259302485}
-  - {fileID: -3939485608215838550}
-  - {fileID: -1381599410544673971}
-  - {fileID: 5497620653377435828}
-  - {fileID: -511508739516326153}
-  - {fileID: -3285481344347164585}
-  - {fileID: 6228427999201438466}
-  - {fileID: -7012628297487017090}
-  - {fileID: -2078026908340361155}
-  - {fileID: -1974467863772422045}
-  - {fileID: 6040378835860797176}
-  - {fileID: -553497471020097695}
-  - {fileID: -5479296344752555936}
+  - {fileID: -6048896538185726348}
+  - {fileID: 2574995051262259049}
+  - {fileID: 1346447645952860148}
+  - {fileID: -4798523019069027706}
+  - {fileID: -1374143756967291964}
+  - {fileID: 3537833354016100531}
+  - {fileID: -1513289136783425659}
+  - {fileID: -4724289793228627864}
+  - {fileID: 2668216052657305318}
+  - {fileID: 5858892428659515737}
+  - {fileID: -4430992434509851348}
+  - {fileID: 1019260839175408623}
+  - {fileID: 3995025504270353908}
+  - {fileID: -7689205949630864590}
+  - {fileID: -3609505044117197928}
+  - {fileID: -4556045089724100226}
+  - {fileID: 2761093470762258875}
+  - {fileID: -4712162670503263554}
+  - {fileID: 8679351323560756189}
+  - {fileID: 25781422658092974}
+  - {fileID: 685497284608487698}
+  - {fileID: 6624006196510209330}
+  - {fileID: -1226835509837260534}
+  - {fileID: 5288373806838221660}
+  - {fileID: 5173854992339741726}
+  - {fileID: -5808145424087661088}
+  - {fileID: 7663784533522361393}
+  - {fileID: -2328018053529672977}
+  - {fileID: -8219713296970063054}
+  - {fileID: 9144770884490893929}
+  - {fileID: 889566072837241156}
+  - {fileID: 7068708767908794199}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 201900600902463766}
+  - {fileID: 8658036526259841657}
   StringsBanks:
-  - {fileID: 6317572382596849415}
-  stringsBankWriteTime: 637727687809363975
+  - {fileID: -3106391530614549647}
+  stringsBankWriteTime: 637738836698316239
   cacheVersion: 6
+--- !u!114 &25781422658092974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ambientes/sfx_ambi_minigame_palicada_mar
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ambientes/sfx_ambi_minigame_palicada_mar
+  guid: a778c6ddb9cbee4eb805264c30c1cff0
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 52038
 --- !u!114 &60732811157412357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2752,6 +3191,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &685497284608487698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/cutscene/sfx_cutscene_criancas_brincando
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/cutscene/sfx_cutscene_criancas_brincando
+  guid: aa278abc2a7c6f4c893d8e92003a15dc
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5913
 --- !u!114 &816585749953224225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2772,6 +3234,73 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &889566072837241156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/personagens/sfx_voz_hans
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/personagens/sfx_voz_hans
+  guid: f21e05a49d26c34da98c0bac5c98a084
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 550
+--- !u!114 &979095710162992018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_minion_mov/ground
+  m_EditorClassIdentifier: 
+  Name: ground
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &1019260839175408623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/sfx/pali\xE7ada/sfx_minion_mov"
+  m_EditorClassIdentifier: 
+  Path: "event:/sfx/pali\xE7ada/sfx_minion_mov"
+  guid: 76044faa07e6a04fb623191f414525c8
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 979095710162992018}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 260
 --- !u!114 &1207344176731030837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2832,6 +3361,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &1346447645952860148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ambientes/sfx_ambi_minigame_canhao
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ambientes/sfx_ambi_minigame_canhao
+  guid: 28387cec354d2c43aca3e1ba89d8ef05
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 36000
 --- !u!114 &1484508336485239889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3057,6 +3609,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &2574995051262259049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_startgame
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_startgame
+  guid: 23c6b3e01b64034eb1539d5c9d767e3a
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &2595098815657477332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3077,6 +3652,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &2668216052657305318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/sfx/pali\xE7ada/sfx_minion_deposita_madeira"
+  m_EditorClassIdentifier: 
+  Path: "event:/sfx/pali\xE7ada/sfx_minion_deposita_madeira"
+  guid: 5b15714889bb3f45814892760a69a838
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 114
 --- !u!114 &2697394934781467472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3097,6 +3695,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &2761093470762258875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/canhao/sfx_tiro_alvejar_mar
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/canhao/sfx_tiro_alvejar_mar
+  guid: 8ffd204d57991047899c92575c6da767
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1800
 --- !u!114 &2765147116910392467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3429,6 +4050,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &3537833354016100531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music/mus_menu
+  m_EditorClassIdentifier: 
+  Path: event:/music/mus_menu
+  guid: 3da80bc569c7ea45976d697cfb5523f3
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &3581019173837274303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3578,6 +4222,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &3995025504270353908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/sfx/pali\xE7ada/sfx_minion1_selecao"
+  m_EditorClassIdentifier: 
+  Path: "event:/sfx/pali\xE7ada/sfx_minion1_selecao"
+  guid: 87348a733575614491ef7e7b7e56574e
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 300
 --- !u!114 &4173371729323710438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3687,6 +4354,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &4384215615308804430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mus_canhao/vitoria
+  m_EditorClassIdentifier: 
+  Name: vitoria
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &4415240975545721208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3965,6 +4652,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &5173854992339741726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music/mus_exploracao
+  m_EditorClassIdentifier: 
+  Path: event:/music/mus_exploracao
+  guid: bdbeccb3eea91347a839655024650b86
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 78000
 --- !u!114 &5200667663773785861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4008,6 +4718,30 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &5288373806838221660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ambientes/sfx_ambi_minigame_palicada
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ambientes/sfx_ambi_minigame_palicada
+  guid: bca155f5beedd149bafad2d3e769cc54
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4092942380924549725}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 95379
 --- !u!114 &5338563151563966093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4243,6 +4977,30 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 543
+--- !u!114 &5858892428659515737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/exploracao_forte/sfx_player_passos
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/exploracao_forte/sfx_player_passos
+  guid: 5c3543e748bc8341a49fc9883ed6c05d
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -8815281088103054830}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 90
 --- !u!114 &5884482935253710509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4562,6 +5320,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &6624006196510209330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/canhao/sfx_tiro_alvejar_barril
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/canhao/sfx_tiro_alvejar_barril
+  guid: aa5f9354b55110489de2e6895767a1f3
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 720
 --- !u!114 &6662359128545249928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4650,6 +5431,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &7068708767908794199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_charcter_skin_hover
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_charcter_skin_hover
+  guid: f498d30ddd8268409f44078a13b3406a
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 158
 --- !u!114 &7202069219080958399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4819,6 +5623,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &7663784533522361393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/sfx/pali\xE7ada/sfx_minion2_selecao"
+  m_EditorClassIdentifier: 
+  Path: "event:/sfx/pali\xE7ada/sfx_minion2_selecao"
+  guid: ccecce929bca0d4cbd87302a32e9bc02
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 320
 --- !u!114 &7719176539431000091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5054,6 +5881,25 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &8658036526259841657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssests/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637738836698256224
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &8667193843771031668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5077,6 +5923,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &8679351323560756189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/canhao/sfx_canhao_tiro
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/canhao/sfx_canhao_tiro
+  guid: a2fbc59bcaaded44a667fd1e54978b92
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 860
 --- !u!114 &8761956038667969915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5201,6 +6070,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &9144770884490893929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_touch_arvore
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_touch_arvore
+  guid: e123bb0de905734a9a95ea06f125d0d5
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 158
 --- !u!114 &9167695948233437803
 MonoBehaviour:
   m_ObjectHideFlags: 0
