@@ -9,13 +9,10 @@ public class Interativo : MonoBehaviour
     public DialogoObejto textoDialogo;
     public DialogoCutscene textoCutscene;
     public GameObject dialogoUI;
+    public TextMeshProUGUI playerName;
 
+    [HideInInspector] public string nomeJigador;
     [HideInInspector]public bool ativo;
-
-    void Start()
-    {
-        //
-    }
 
     void Update()
     {
@@ -34,8 +31,6 @@ public class Interativo : MonoBehaviour
             }
         }
 
-        print(dialogoUI.GetComponent<DialogoUI>().caixaDialogo.activeSelf);
-
         if (Input.GetKeyDown(KeyCode.KeypadEnter) && dialogoUI.GetComponent<DialogoUI>().caixaDialogo.activeSelf == false)
         {
             print("tomei no cu");
@@ -45,6 +40,11 @@ public class Interativo : MonoBehaviour
 
     public void ComecaDialogo()
     {
-        dialogoUI.GetComponent<DialogoUI>().MostrarDialogoCutscene(textoCutscene);
+        dialogoUI.GetComponent<DialogoUI>().MostrarDialogoCutscene(textoCutscene, nomeJigador);
+    }
+
+    public void SalvaNome()
+    {
+        nomeJigador = playerName.text;
     }
 }

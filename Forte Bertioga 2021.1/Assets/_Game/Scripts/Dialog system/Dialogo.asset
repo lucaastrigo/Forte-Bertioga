@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Strings:
   - passaDialogo: 0
-    falas: "Cara que maneiro esse lugar, tudo t\xE3o poderoso, "
+    falas: "Cara que maneiro esse lugar, tudo t\xE3o poderoso, nickname"
     audioString: {fileID: 8300000, guid: a6fdd24d7d14a4b4d890da61f83a45ec, type: 3}
   - passaDialogo: 1
     falas: "parece at\xE9 que algu\xE9m importante esteve \r\naqui.\r"
@@ -84,8 +84,8 @@ MonoBehaviour:
     falas: "E voc\xEA? Quem seria?"
     audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
   - passaDialogo: 0
-    falas: "Eu sou (*Insira seu nome aqui*), estava em uma excurs\xE3o com minha
-      turma por aqui no Forte"
+    falas: "Eu sou nickname, estava em uma excurs\xE3o com minha turma por aqui no
+      Forte"
     audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
   - passaDialogo: 1
     falas: "Mas como fiquei jogando at\xE9 tarde eu acabei dando uma cochilada.."

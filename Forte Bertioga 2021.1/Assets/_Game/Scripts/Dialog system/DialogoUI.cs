@@ -52,14 +52,14 @@ public class DialogoUI : MonoBehaviour
 
 
 
-    public void MostrarDialogoCutscene(DialogoCutscene dialigoObjeto)
+    public void MostrarDialogoCutscene(DialogoCutscene dialigoObjeto, string nomiJogador)
     {
         dialogo = true;
         caixaDialogo.SetActive(true);
-        StartCoroutine(PassarDialogoCutscene(dialigoObjeto));
+        StartCoroutine(PassarDialogoCutscene(dialigoObjeto, nomiJogador));
     }
 
-    private IEnumerator PassarDialogoCutscene(DialogoCutscene dialogoObjeto)
+    private IEnumerator PassarDialogoCutscene(DialogoCutscene dialogoObjeto, string nomeJogador)
     {
         for (int i = 0; i < dialogoObjeto.Strings.Count; i++)
         {
@@ -68,7 +68,9 @@ public class DialogoUI : MonoBehaviour
                 audioSource.PlayOneShot(dialogoObjeto.Strings[i].audioString);
             }
 
-            yield return efeitoTypewriter.Run(dialogoObjeto.Strings[i].falas, textLabel, espaco);
+            string output = dialogoObjeto.Strings[i].falas.Replace("nickname", nomeJogador);
+
+            yield return efeitoTypewriter.Run(output, textLabel, espaco);
 
             espaco.enabled = true;
 

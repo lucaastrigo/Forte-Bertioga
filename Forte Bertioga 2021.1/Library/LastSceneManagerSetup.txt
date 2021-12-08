@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/_Game/Scenes/DialogoInicial.unity
+- path: Assets/Plugins/Easy performant outline/Demo/Scenes/Use cases.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

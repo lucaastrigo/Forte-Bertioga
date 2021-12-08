@@ -7,17 +7,6 @@ public class DialogoCutscene : ScriptableObject
 {
     public List<TextCutscene> Strings = new List<TextCutscene>();
 
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     [System.Serializable]
     public class TextCutscene
     {
@@ -25,5 +14,4 @@ public class DialogoCutscene : ScriptableObject
         [TextArea] public string falas;
         public AudioClip audioString;
     }
-
 }
