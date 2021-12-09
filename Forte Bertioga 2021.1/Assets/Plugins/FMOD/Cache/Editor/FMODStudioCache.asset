@@ -953,7 +953,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 8816445571609818167}
+  - {fileID: 6455183868072743229}
   MinDistance: 0
   MaxDistance: 0
   Length: 24000
@@ -1043,6 +1043,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 80
+--- !u!114 &-5675104255871152984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_ambi_minigame_palicada/local
+  m_EditorClassIdentifier: 
+  Name: local
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-5479296344752555936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1195,7 +1215,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 3831882175720931509}
+  - {fileID: 6523301353125397379}
   MinDistance: 0
   MaxDistance: 0
   Length: 66000
@@ -1369,7 +1389,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 7290112395343394345}
+  - {fileID: 5542979849554993369}
   MinDistance: 0
   MaxDistance: 0
   Length: 73000
@@ -1677,7 +1697,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-3724674544204238269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1954,7 +1974,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssests/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637744978415287356
+  lastModified: 637745920451572516
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -2081,6 +2101,26 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-2584425388064018733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_minion_mov/ground
+  m_EditorClassIdentifier: 
+  Name: ground
+  Min: 1
+  Max: 2
+  Default: 1
   ID:
     data1: 0
     data2: 0
@@ -3005,7 +3045,7 @@ MonoBehaviour:
   - {fileID: 8658036526259841657}
   StringsBanks:
   - {fileID: -3106391530614549647}
-  stringsBankWriteTime: 637744978415287356
+  stringsBankWriteTime: 637745920451572516
   cacheVersion: 6
 --- !u!114 &25781422658092974
 MonoBehaviour:
@@ -3416,7 +3456,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 2065665970642084181}
+  - {fileID: -2584425388064018733}
   MinDistance: 1
   MaxDistance: 20
   Length: 260
@@ -3542,7 +3582,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &1525446198480043489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3681,7 +3721,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &2201757106240906879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4380,7 +4420,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &3877470580163188967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4566,6 +4606,26 @@ MonoBehaviour:
   m_Name: parameter:/sfx_ambi_forte/local
   m_EditorClassIdentifier: 
   Name: local
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &4445582699277166497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_passos/ground
+  m_EditorClassIdentifier: 
+  Name: ground
   Min: 1
   Max: 2
   Default: 1
@@ -4940,7 +5000,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -3794615884046541502}
+  - {fileID: -5675104255871152984}
   MinDistance: 0
   MaxDistance: 0
   Length: 95379
@@ -5116,6 +5176,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &5542979849554993369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mus_canhao/vitoria
+  m_EditorClassIdentifier: 
+  Name: vitoria
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &5638533172996268072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5199,7 +5279,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 1522478268774804303}
+  - {fileID: 4445582699277166497}
   MinDistance: 0
   MaxDistance: 0
   Length: 90
@@ -5482,6 +5562,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &6455183868072743229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mus_cutscene/cena
+  m_EditorClassIdentifier: 
+  Name: cena
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &6473749685060349197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5497,6 +5597,26 @@ MonoBehaviour:
   Name: local
   Min: 1
   Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &6523301353125397379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_ambi_forte/local
+  m_EditorClassIdentifier: 
+  Name: local
+  Min: 1
+  Max: 2
   Default: 1
   ID:
     data1: 0
@@ -5738,7 +5858,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &7323022294244150722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6141,7 +6261,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssests/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637744978415127319
+  lastModified: 637745920451232537
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -6231,7 +6351,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &8893362530772213252
 MonoBehaviour:
   m_ObjectHideFlags: 0

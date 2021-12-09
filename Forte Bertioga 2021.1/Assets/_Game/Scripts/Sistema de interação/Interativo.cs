@@ -11,9 +11,15 @@ public class Interativo : MonoBehaviour
     public GameObject dialogoUI;
     public TextMeshProUGUI playerName;
 
-    [HideInInspector] public string nomeJigador;
+    [HideInInspector]public static string nomeJigador;
     [HideInInspector]public bool ativo;
 
+    private DialogoObejto m_textoDialogo;
+
+    void Awake()
+    {
+        m_textoDialogo = textoDialogo;
+    }
     void Update()
     {
         if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
@@ -24,17 +30,11 @@ public class Interativo : MonoBehaviour
 
             if (Physics.Raycast(ray2, out hit))
             {
-                if (hit.collider.tag == "Interativo"&& dialogoUI.GetComponent<DialogoUI>().caixaDialogo.activeSelf == false)
+                if (hit.collider.tag == "Interativo" && dialogoUI.GetComponent<DialogoUI>().caixaDialogo.activeSelf == false)
                 {
-                    dialogoUI.GetComponent<DialogoUI>().MostrarDialogo(textoDialogo);
+                    dialogoUI.GetComponent<DialogoUI>().MostrarDialogo(hit.collider.GetComponent<Interativo>().m_textoDialogo, nomeJigador);
                 }
             }
-        }
-
-        if (Input.GetKeyDown(KeyCode.KeypadEnter) && dialogoUI.GetComponent<DialogoUI>().caixaDialogo.activeSelf == false)
-        {
-            print("tomei no cu");
-            dialogoUI.GetComponent<DialogoUI>().MostrarDialogo(textoDialogo);
         }
     }
 

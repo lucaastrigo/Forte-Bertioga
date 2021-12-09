@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Strings:
   - passaDialogo: 0
-    falas: "Cara que maneiro esse lugar, tudo t\xE3o poderoso, nickname"
+    falas: "Cara que maneiro esse lugar, tudo t\xE3o poderoso"
     audioString: {fileID: 8300000, guid: a6fdd24d7d14a4b4d890da61f83a45ec, type: 3}
   - passaDialogo: 1
     falas: "parece at\xE9 que algu\xE9m importante esteve \r\naqui.\r"

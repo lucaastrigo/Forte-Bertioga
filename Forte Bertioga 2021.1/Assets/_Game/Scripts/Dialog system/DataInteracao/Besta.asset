@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67a6ecbba3c7524cb75e89183f96030, type: 3}
+  m_Name: Besta
+  m_EditorClassIdentifier: 
+  dialogo:
+  - "Olha s\xF3, n\xE3o vejo uma dessas faz bastante tempo!"
+  - "Nossa, isso seria uma besta, n\xE3o \xE9? Ela tamb\xE9m era usada para combate?"
+  - "Ela at\xE9 era utilizada sim para o combate, mas no geral ela era utilizada
+    mais para ca\xE7ar"
+  - "Afinal naquele per\xEDodo n\xE3o era t\xE3o f\xE1cil conseguir comida quanto
+    hoje"
+  - "Ah sim, tenho que agradecer por existir Supermercado hoje em dia!\r"

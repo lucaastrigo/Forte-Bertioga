@@ -13,6 +13,7 @@ public class DialogoUI : MonoBehaviour
     //[SerializeField] private DialogoObejto testeDialogo;
 
     private EfeitoTypewriter efeitoTypewriter;
+    public DialogoObejto m_dialogoObjeto;
 
     public bool dialogo;
     public Image espaco;
@@ -22,7 +23,7 @@ public class DialogoUI : MonoBehaviour
         FecharDialogo();
     }
 
-    public void MostrarDialogo(DialogoObejto dialigoObjeto)
+    public void MostrarDialogo(DialogoObejto dialigoObjeto, string nomiJogador)
     {
         dialogo = true;
 
@@ -31,16 +32,20 @@ public class DialogoUI : MonoBehaviour
             caixaDialogo.SetActive(true);
         }
 
-        StartCoroutine(PassarDialogo(dialigoObjeto));
+        StartCoroutine(PassarDialogo(dialigoObjeto, nomiJogador));
     }
-
-    private IEnumerator PassarDialogo(DialogoObejto dialogoObjeto)
+    private IEnumerator PassarDialogo(DialogoObejto dialogoObjeto, string nomeJogador)
     {
+        m_dialogoObjeto = dialogoObjeto;
         foreach (string dialogo in dialogoObjeto.Dialogo)
         {
-            yield return efeitoTypewriter.Run(dialogo, textLabel, espaco);
+
+            string output = dialogo.Replace("nickname", nomeJogador);
+
+            yield return efeitoTypewriter.Run(output, textLabel, espaco);
+
             espaco.enabled = true;
-            yield return new WaitUntil(() => Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began || Input.GetKeyDown(KeyCode.Space) || caixaDialogo.GetComponent<DialogBox>().clicked);
+            yield return new WaitUntil(() => Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began);
             yield return new WaitForSeconds(0.1f);
             caixaDialogo.GetComponent<DialogBox>().clicked = false;
             //textLabel.text = string.Empty;
@@ -96,6 +101,28 @@ public class DialogoUI : MonoBehaviour
         textLabel.text = string.Empty;
 
         StartCoroutine(Finito());
+    } 
+    public void FecharDialogo2()
+    {
+        //StartCoroutine(PassarDialogo(m_dialogoObjeto, null));
+
+        //foreach (string dialogo in m_dialogoObjeto.Dialogo)
+        //{
+        //    print("oioio");
+        //}
+
+        //FecharDialogo();
+
+
+        ////if (caixaDialogo.activeSelf == true)
+        ////{
+        ////    caixaDialogo.SetActive(false);
+        ////}
+
+        ////textLabel.text = string.Empty;
+
+        ////StartCoroutine(Finito());
+
     }
 
     IEnumerator Finito()
