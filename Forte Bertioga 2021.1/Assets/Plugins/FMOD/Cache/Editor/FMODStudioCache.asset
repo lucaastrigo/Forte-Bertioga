@@ -93,6 +93,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-9160629696281775252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/personagens/Hans/sfx_hans_advertencia
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/personagens/Hans/sfx_hans_advertencia
+  guid: 1592e4b2d7bf10429a28706080853f6f
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1400
 --- !u!114 &-9150285349636682924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,7 +348,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1432
+  Length: 1180
 --- !u!114 &-8121891593351799033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -813,6 +836,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-6551931280584176809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/personagens/crianca/sfx_crianca_susto_pesado
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/personagens/crianca/sfx_crianca_susto_pesado
+  guid: 0b8098a099f8cf4e81f0b821237f025d
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 384
 --- !u!114 &-6331875091849492014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -953,7 +999,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 6455183868072743229}
+  - {fileID: 3761381772873611131}
   MinDistance: 0
   MaxDistance: 0
   Length: 24000
@@ -1215,7 +1261,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 6523301353125397379}
+  - {fileID: -4687184356549809074}
   MinDistance: 0
   MaxDistance: 0
   Length: 66000
@@ -1329,6 +1375,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 30
+--- !u!114 &-4687184356549809074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_ambi_forte/local
+  m_EditorClassIdentifier: 
+  Name: local
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-4570658540192310409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1389,7 +1455,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 5542979849554993369}
+  - {fileID: -2750597613397761189}
   MinDistance: 0
   MaxDistance: 0
   Length: 73000
@@ -1635,6 +1701,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-4132023518094907935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/personagens/Hans/sfx_hans_normal
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/personagens/Hans/sfx_hans_normal
+  guid: 9450930c447ca64c90830d043bc8d1ef
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1884
 --- !u!114 &-4092942380924549725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1974,13 +2063,13 @@ MonoBehaviour:
   Path: Assets/StreamingAssests/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637745920451572516
+  lastModified: 637748376361006420
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 3250
+    Value: 3592
   - Name: Mobile
-    Value: 3250
+    Value: 3592
   Exists: 1
 --- !u!114 &-3042087525835554048
 MonoBehaviour:
@@ -2002,6 +2091,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-3016485947306185175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/personagens/crianca/sfx_crianca_susto_leve
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/personagens/crianca/sfx_crianca_susto_leve
+  guid: 3108a7e99af9df4685ffbc6a42da59de
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 394
 --- !u!114 &-2979086447597762498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2085,6 +2197,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-2750597613397761189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mus_canhao/vitoria
+  m_EditorClassIdentifier: 
+  Name: vitoria
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-2635490483278569173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2125,6 +2257,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-2559675179760233537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/personagens/crianca/sfx_crianca_maravilhada
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/personagens/crianca/sfx_crianca_maravilhada
+  guid: 13d2c19fdbe3a84d8a0b499e4d661c1a
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 644
 --- !u!114 &-2447959878431908835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3006,7 +3161,6 @@ MonoBehaviour:
   - {fileID: 2574995051262259049}
   - {fileID: 1346447645952860148}
   - {fileID: -4798523019069027706}
-  - {fileID: -1374143756967291964}
   - {fileID: 3537833354016100531}
   - {fileID: -1513289136783425659}
   - {fileID: -4724289793228627864}
@@ -3032,7 +3186,6 @@ MonoBehaviour:
   - {fileID: -2328018053529672977}
   - {fileID: -8219713296970063054}
   - {fileID: 9144770884490893929}
-  - {fileID: 889566072837241156}
   - {fileID: 7068708767908794199}
   - {fileID: 800802838717402129}
   - {fileID: -9217567155321324750}
@@ -3040,12 +3193,21 @@ MonoBehaviour:
   - {fileID: -3286438679679498281}
   - {fileID: 8024695243309986035}
   - {fileID: -5291525291857031809}
+  - {fileID: -6551931280584176809}
+  - {fileID: -2559675179760233537}
+  - {fileID: -9160629696281775252}
+  - {fileID: -3016485947306185175}
+  - {fileID: 9070239604479797745}
+  - {fileID: 8131683864390091764}
+  - {fileID: 4535469049752619951}
+  - {fileID: -4132023518094907935}
+  - {fileID: 6753204874688390867}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8658036526259841657}
   StringsBanks:
   - {fileID: -3106391530614549647}
-  stringsBankWriteTime: 637745920451572516
+  stringsBankWriteTime: 637748376361006420
   cacheVersion: 6
 --- !u!114 &25781422658092974
 MonoBehaviour:
@@ -3136,6 +3298,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &199666255257303458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_passos/ground
+  m_EditorClassIdentifier: 
+  Name: ground
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &201900600902463766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3456,7 +3638,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -2584425388064018733}
+  - {fileID: 6904802529753188860}
   MinDistance: 1
   MaxDistance: 20
   Length: 260
@@ -3789,6 +3971,26 @@ MonoBehaviour:
     data2: 0
   Exists: 1
 --- !u!114 &2458491773454019218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_ambi_minigame_palicada/local
+  m_EditorClassIdentifier: 
+  Name: local
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &2563075251982690414
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4381,6 +4583,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &3761381772873611131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mus_cutscene/cena
+  m_EditorClassIdentifier: 
+  Name: cena
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &3827726051512857571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4653,6 +4875,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &4535469049752619951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/personagens/crianca/sfx_crianca_questionando
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/personagens/crianca/sfx_crianca_questionando
+  guid: 48b51d5750f62c40ad9df4943e77da9e
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 697
 --- !u!114 &4549980487712829446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5000,7 +5245,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -5675104255871152984}
+  - {fileID: 2563075251982690414}
   MinDistance: 0
   MaxDistance: 0
   Length: 95379
@@ -5279,7 +5524,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 4445582699277166497}
+  - {fileID: 199666255257303458}
   MinDistance: 0
   MaxDistance: 0
   Length: 90
@@ -5709,6 +5954,49 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &6753204874688390867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/personagens/Hans/sfx_hans_tosindo
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/personagens/Hans/sfx_hans_tosindo
+  guid: f541acac2cf9ce4f932fc337bdfa97b9
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1221
+--- !u!114 &6904802529753188860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_minion_mov/ground
+  m_EditorClassIdentifier: 
+  Name: ground
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &6945580039052131357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6123,6 +6411,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 480
+--- !u!114 &8131683864390091764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/personagens/Hans/sfx_hans_rindo
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/personagens/Hans/sfx_hans_rindo
+  guid: 4738abdfd9bfd24c90c3660ff47fb17a
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2086
 --- !u!114 &8199193943018563707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6261,7 +6572,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssests/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637745920451232537
+  lastModified: 637748376360556707
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -6432,6 +6743,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &9070239604479797745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/personagens/crianca/sfx_crianca_normal
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/personagens/crianca/sfx_crianca_normal
+  guid: 47346b13ee2f494a87f3f8989b38199b
+  Banks:
+  - {fileID: 8658036526259841657}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 317
 --- !u!114 &9094211263831222403
 MonoBehaviour:
   m_ObjectHideFlags: 0

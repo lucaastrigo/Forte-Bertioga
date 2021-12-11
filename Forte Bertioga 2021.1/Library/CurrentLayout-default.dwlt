@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1366
     height: 685
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Console
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,10 +120,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 911, y: 492}
-  m_MaxSize: {x: 22006, y: 14042}
+  m_MinSize: {x: 910, y: 492}
+  m_MaxSize: {x: 22005, y: 14042}
   vertical: 0
-  controlID: 9769
+  controlID: 18
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 9775
+  controlID: 158
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -222,10 +222,10 @@ MonoBehaviour:
     y: 0
     width: 763
     height: 635
-  m_MinSize: {x: 404, y: 342}
-  m_MaxSize: {x: 8004, y: 8042}
+  m_MinSize: {x: 404, y: 321}
+  m_MaxSize: {x: 8004, y: 8021}
   vertical: 1
-  controlID: 9712
+  controlID: 107
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 9713
+  controlID: 108
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,8 +270,8 @@ MonoBehaviour:
     y: 0
     width: 343
     height: 364
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -296,8 +296,8 @@ MonoBehaviour:
     y: 0
     width: 420
     height: 364
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -323,8 +323,8 @@ MonoBehaviour:
     y: 364
     width: 763
     height: 271
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -350,8 +350,8 @@ MonoBehaviour:
     y: 0
     width: 281
     height: 635
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -474,26 +474,26 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 317}
-      m_SelectedIDs: 0afb0100
-      m_LastClickedID: 129802
-      m_ExpandedIDs: 1ad3feff88dafeff30dbfeff1edffeffbae2feff3ce8fefff2e8feffe0ecfeff5cedfeff842cffff6235ffff1436ffff5439ffffd639ffff8c3affff903effff8859ffff785dfffff25dffff1261fffff864ffffae65ffffcc6bffff4e6cffffd06cffff4a6dffffbc6dffff5477ffff5ca9ffffdea9ffffe4adffff0cb3ffff86c20000d8ce0000eecf000056d00000bad000009ed40000b6d60000f8f600001cf700007ef70000c6f7000004f80000b2fd0000c8fe000082ff000094ff00007803010090050100d63501008e3601005a370100b43901003e3b0100563d010016930100ce9301007a9601007e9801001ef30100a8f301000af4010060f40100c8f401002cf50100b2f501000ef70100faf8010032fb0100
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: f2520000
+      m_LastClickedID: 21234
+      m_ExpandedIDs: d0c4ffffe4efffff52fbffff584d0000724d0000024e0000ea4e0000244f0000a851000080530000d2550000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Canhao
-        m_OriginalName: Canhao
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -114344
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 7}
+        m_ClientGUIView: {fileID: 14}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -539,22 +539,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Game/Scripts/Dialog system/DataInteracao
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_Game/Scripts/Dialog system/DataInteracao
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 235}
-    m_SelectedIDs: 4cd70000
-    m_LastClickedID: 55116
-    m_ExpandedIDs: 0000000026c4000028c400002ac400002cc4000054c4000074c4000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: d65a0000
+    m_LastClickedID: 23254
+    m_ExpandedIDs: 00000000d65a0000d85a0000da5a0000dc5a0000cc5b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -582,7 +582,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000026c4000028c400002ac400002cc4000000ca9a3b
+    m_ExpandedIDs: 00000000d65a0000d85a0000da5a0000dc5a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -609,7 +609,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300004e3f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -634,7 +634,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 275}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 164
@@ -674,9 +674,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 62.210087, y: 24.562307, z: 4.2458286}
+    m_Target: {x: 70.99472, y: -21.84866, z: 15.295343}
     speed: 2
-    m_Value: {x: 62.210087, y: 24.562307, z: 4.2458286}
+    m_Value: {x: 70.99472, y: -21.84866, z: 15.295343}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -723,13 +723,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.19591285, y: 0.29564956, z: -0.062128358, w: 0.93293786}
+    m_Target: {x: 0.43710005, y: 0.4035054, z: -0.22889487, w: 0.7705446}
     speed: 2
-    m_Value: {x: 0.19721565, y: 0.2969512, z: -0.06286694, w: 0.9321877}
+    m_Value: {x: 0.43628463, y: 0.4026901, z: -0.22763465, w: 0.7718024}
   m_Size:
-    m_Target: 2.444746
+    m_Target: 55.52195
     speed: 2
-    m_Value: 2.144746
+    m_Value: 55.52195
   m_Ortho:
     m_Target: 0
     speed: 2
