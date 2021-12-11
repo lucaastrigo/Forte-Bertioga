@@ -15,31 +15,31 @@ MonoBehaviour:
   Strings:
   - passaDialogo: 0
     falas: "Cara que maneiro esse lugar, tudo t\xE3o poderoso"
-    audioString: {fileID: 8300000, guid: a6fdd24d7d14a4b4d890da61f83a45ec, type: 3}
+    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
   - passaDialogo: 1
     falas: "parece at\xE9 que algu\xE9m importante esteve \r\naqui.\r"
-    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
+    audioString: {fileID: 8300000, guid: 5edfd44174ea64a42aded07e6b6614bd, type: 3}
   - passaDialogo: 0
     falas: "PJ: Eu n\xE3o devia ter virado a noite inteira jogando ontem."
-    audioString: {fileID: 8300000, guid: f7c6c288c7a57dd479ab2c124ffd4a63, type: 3}
+    audioString: {fileID: 8300000, guid: 316122f1d499dbd498ffa37fb04847d2, type: 3}
   - passaDialogo: 1
     falas: "PJ: Talvez por aqui tenha um lugarzinho s\xF3 para dar uma descansada
       boa e voltar para essa \r\nexplora\xE7\xE3o por aqui"
-    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
+    audioString: {fileID: 8300000, guid: 15e81497148d7604cbe7b29c2d652f40, type: 3}
   - passaDialogo: 1
     falas: "PJ: Acho que n\xE3o vai ter problema descansar um pouquinho\r\n"
-    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
+    audioString: {fileID: 8300000, guid: 68e5e2d855e1e994392e35e9d8f9add9, type: 3}
   - passaDialogo: 1
     falas: "Ol\xE1, poderia fazer o favor de acordar, voc\xEA n\xE3o \r\ndeveria
       dormir dentro do Forte"
-    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
+    audioString: {fileID: 8300000, guid: 190cb0267f0ddfc468781b7c9fffaae7, type: 3}
   - passaDialogo: 0
     falas: Finalmente acordaste, pensava que iria ficar o dia inteiro parecendo um
       defunto
-    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
+    audioString: {fileID: 8300000, guid: 3598b31b00d6ece4ea2590bf9819869d, type: 3}
   - passaDialogo: 1
     falas: "ou ao menos, dormindo como um.\r"
-    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
+    audioString: {fileID: 8300000, guid: 8d0a9ba7cf542024fbabc424a8c8cad4, type: 3}
   - passaDialogo: 0
     falas: 'Olha, desculpa por dormir aqui, foi sem querer, '
     audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
@@ -50,14 +50,14 @@ MonoBehaviour:
   - passaDialogo: 1
     falas: "AAAAAAAAAAAAAAAHHHHHH!!!!!!! COMO EU ESTOU VENDO FANTASMAS!!!!!!!!!!!!!!!!!
       EU \r\nS\xD3 QUERIA DAR UMA COCHILADINHA."
-    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
+    audioString: {fileID: 8300000, guid: ec2d6ff05c328c74cb7017bd26f22d20, type: 3}
   - passaDialogo: 1
     falas: "Acalme-se por favor, n\xE3o voc\xEA n\xE3o morreu eu sou apenas uma representa\xE7\xE3o
       \r\ndo Guardi\xE3o deste Forte."
-    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
+    audioString: {fileID: 8300000, guid: 70598b6ac0f65574abdbf82d4692483b, type: 3}
   - passaDialogo: 0
     falas: "AAAAAAAAAAAAAAAAAAHHHHH, espera eu n\xE3o morri?"
-    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
+    audioString: {fileID: 8300000, guid: ec2d6ff05c328c74cb7017bd26f22d20, type: 3}
   - passaDialogo: 0
     falas: MAS ISSO SIGNIFICA QUE EU ESTOU FALANDO COM UM FANTASMA! AAAAAAAAAAHH!
       QUERO IR PRA CASA!
@@ -68,21 +68,20 @@ MonoBehaviour:
     audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
   - passaDialogo: 1
     falas: COF* COF*
-    audioString: {fileID: 0}
+    audioString: {fileID: 8300000, guid: 9049b055e00535e48a156d52450bba8f, type: 3}
   - passaDialogo: 0
     falas: Por favor, calma! Calma!
-    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
+    audioString: {fileID: 8300000, guid: 3598b31b00d6ece4ea2590bf9819869d, type: 3}
   - passaDialogo: 0
-    falas: "Por favor, calma! Calma! Certo... agora que os \xE2nimos j\xE1 se acalmaram,
-      deixe me apresentar"
-    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
+    falas: "Certo... agora que os \xE2nimos j\xE1 se acalmaram, deixe me apresentar"
+    audioString: {fileID: 8300000, guid: 70598b6ac0f65574abdbf82d4692483b, type: 3}
   - passaDialogo: 0
     falas: "Muito prazer! Sou Hans Staden, sou o guardi\xE3o deste forte que voc\xEA
       se encontra, o Forte Bertioga!"
-    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
+    audioString: {fileID: 8300000, guid: 3598b31b00d6ece4ea2590bf9819869d, type: 3}
   - passaDialogo: 1
     falas: "E voc\xEA? Quem seria?"
-    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
+    audioString: {fileID: 8300000, guid: 70598b6ac0f65574abdbf82d4692483b, type: 3}
   - passaDialogo: 0
     falas: "Eu sou nickname, estava em uma excurs\xE3o com minha turma por aqui no
       Forte"
@@ -93,19 +92,19 @@ MonoBehaviour:
   - passaDialogo: 0
     falas: "Ei ei, espere um pouco! N\xE3o quer saber o que realmente \xE9 o Forte
       Bertioga?"
-    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
+    audioString: {fileID: 8300000, guid: 3598b31b00d6ece4ea2590bf9819869d, type: 3}
   - passaDialogo: 1
     falas: "O qual protejo at\xE9 mesmo ap\xF3s meu falecimento, nas minhas hist\xF3rias
       e tudo mais. (faz tempo que n\xE3o falo com ningu\xE9m...) *diz entre os dentes."
-    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
+    audioString: {fileID: 8300000, guid: 70598b6ac0f65574abdbf82d4692483b, type: 3}
   - passaDialogo: 1
     falas: "S\xE9rio que divertido!!!!!!!!! Mas n\xE3o vai ter problema para meus
       amigos e professores de eu simplesmente desaparecer?"
-    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
+    audioString: {fileID: 8300000, guid: 68e5e2d855e1e994392e35e9d8f9add9, type: 3}
   - passaDialogo: 1
     falas: "N\xE3o se preocupe, o presente estar\xE1 pausado enquanto estivermos
       nessa nossa viagem, que tal ent\xE3o?\r"
-    audioString: {fileID: 8300000, guid: 6a1a5968e2d2935458570e0d6dcae4df, type: 3}
+    audioString: {fileID: 8300000, guid: f4b325011243f5f4395d7ef7e580e3b6, type: 3}
   - passaDialogo: 1
     falas: Por mim ok, vamos senhor Hans.
-    audioString: {fileID: 8300000, guid: 1a305192faf09854d84e452c8f7e9a4c, type: 3}
+    audioString: {fileID: 8300000, guid: 5edfd44174ea64a42aded07e6b6614bd, type: 3}

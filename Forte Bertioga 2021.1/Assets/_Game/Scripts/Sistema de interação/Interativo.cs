@@ -10,11 +10,18 @@ public class Interativo : MonoBehaviour
     public DialogoCutscene textoCutscene;
     public GameObject dialogoUI;
     public TextMeshProUGUI playerName;
+    public AudioClip clip;
 
     [HideInInspector]public static string nomeJigador;
     [HideInInspector]public bool ativo;
 
     private DialogoObejto m_textoDialogo;
+    private AudioSource aud;
+
+    private void Start()
+    {
+        aud = GameObject.Find("audio source interativo").GetComponent<AudioSource>();
+    }
 
     void Awake()
     {
@@ -33,6 +40,10 @@ public class Interativo : MonoBehaviour
                 if (hit.collider.tag == "Interativo" && dialogoUI.GetComponent<DialogoUI>().caixaDialogo.activeSelf == false)
                 {
                     dialogoUI.GetComponent<DialogoUI>().MostrarDialogo(hit.collider.GetComponent<Interativo>().m_textoDialogo, nomeJigador);
+
+                    aud.PlayOneShot(clip);
+                    print(aud);
+                    print("asaas");
                 }
             }
         }
