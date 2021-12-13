@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3306,13 +3306,13 @@ MonoBehaviour:
       - m_Target: {fileID: 285571628}
         m_TargetAssemblyTypeName: StoryBoard, Assembly-CSharp
         m_MethodName: PularScene
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MovementPrototype
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1073850459
@@ -4975,6 +4975,7 @@ MonoBehaviour:
   textoCutscene: {fileID: 11400000, guid: 35a4340f44aad034690f6c542f147128, type: 2}
   dialogoUI: {fileID: 1700822363}
   playerName: {fileID: 212887520}
+  clip: {fileID: 0}
   ativo: 0
 --- !u!1 &1716319791
 GameObject:

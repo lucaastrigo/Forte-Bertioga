@@ -20,7 +20,7 @@ public class StoryBoard : MonoBehaviour
         
     }
 
-    public void NextItem()
+    public void NextItem(string nextScene)
     {
         if(num < story.Length - 1)
         {
@@ -29,12 +29,12 @@ public class StoryBoard : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene(SceneManager.sceneCount + 1);
+            SceneManager.LoadScene("MovementPrototype");
         }
     }
 
-    public void PularScene()
+    public void PularScene(string nextScene)
     {
-        SceneManager.LoadScene(SceneManager.sceneCount + 1);
+        SceneManager.LoadScene(nextScene);
     }
 }

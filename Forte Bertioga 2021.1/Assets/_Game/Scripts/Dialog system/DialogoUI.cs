@@ -83,7 +83,7 @@ public class DialogoUI : MonoBehaviour
 
             if(dialogoObjeto.Strings[i].passaDialogo)
             {
-                storyBoard.NextItem();
+                storyBoard.NextItem("MovementPrototype");
             }
         }
 
