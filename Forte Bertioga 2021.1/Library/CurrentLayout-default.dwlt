@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1366
     height: 685
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 521}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 875, y: 521}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_MinSize: {x: 909, y: 471}
   m_MaxSize: {x: 22004, y: 14021}
   vertical: 0
-  controlID: 3933
+  controlID: 133
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 230, y: 471}
   m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
-  controlID: 3997
+  controlID: 18
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 342}
   m_MaxSize: {x: 8004, y: 8042}
   vertical: 1
-  controlID: 3934
+  controlID: 134
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 3935
+  controlID: 135
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,8 +270,8 @@ MonoBehaviour:
     y: 0
     width: 374
     height: 363
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -323,8 +323,8 @@ MonoBehaviour:
     y: 363
     width: 763
     height: 272
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -475,9 +475,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 9cd3ffff18d4ffff90d7ffffead7fffff2d7fffff8d9ffff74daffff86dffffffedfffff06e0ffff8eeefffff0f3ffff52fbffff464b0000824b0000984b0000c24b0000064c00002a4c0000544c00007c4c00002e7200006a7200001273000064730000
+      m_SelectedIDs: 44a10000
+      m_LastClickedID: 41284
+      m_ExpandedIDs: d0d8ffff4cd9ffff5edeffff7adeffff8edeffffb8efffff52fbfffffe660000906700002c690000666900007a690000ce6d00001e7000006a9e0000baa20000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -539,22 +539,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Game/Scenes
+    - Assets/_Game/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_Game/Scenes
+  - Assets/_Game/Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Unity\Forte-Bertioga\Forte Bertioga 2021.1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 95}
-    m_SelectedIDs: a04f0000
-    m_LastClickedID: 20384
-    m_ExpandedIDs: 00000000524f0000784f000000ca9a3b
+    scrollPos: {x: 0, y: 287}
+    m_SelectedIDs: 9a4f0000
+    m_LastClickedID: 20378
+    m_ExpandedIDs: 00000000584f0000604f0000964f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -570,7 +570,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 13}
+      m_ClientGUIView: {fileID: 8}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -582,7 +582,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000524f000000ca9a3b
+    m_ExpandedIDs: 00000000584f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -609,7 +609,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300004e3f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -674,9 +674,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 73.26156, y: 1.4458771, z: 48.535076}
+    m_Target: {x: 56.66525, y: -4.930794, z: 62.38301}
     speed: 2
-    m_Value: {x: 73.26156, y: 1.4458771, z: 48.535076}
+    m_Value: {x: 56.66525, y: -4.930794, z: 62.38301}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -723,13 +723,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.31538558, y: 0.42079246, z: -0.15882364, w: 0.83562124}
+    m_Target: {x: 0.51201785, y: 0.36465523, z: -0.25400585, w: 0.73509675}
     speed: 2
-    m_Value: {x: 0.3153856, y: 0.4207925, z: -0.15882365, w: 0.83562124}
+    m_Value: {x: 0.4263589, y: 0.39846376, z: -0.2171193, w: 0.78249854}
   m_Size:
-    m_Target: 42.735203
+    m_Target: 22.06774
     speed: 2
-    m_Value: 42.735203
+    m_Value: 23.10758
   m_Ortho:
     m_Target: 0
     speed: 2
