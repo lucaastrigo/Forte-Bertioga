@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Cama
   m_EditorClassIdentifier: 
   dialogo:
+  - "Aqui \xE9 onde os soldados dormiam?"
   - ' Basicamente sim nickname'
   - "era aqui que os soldados descansavam um dia de \r\ntrabalho \xE1rduo"
   - "e se preparavam para o pr\xF3ximo, mas n\xE3o todos ao mesmo tempo"
-  - "e se preparavam para o pr\xF3ximo, mas n\xE3o todos ao mesmo tempo"
+  - Eles revezavam?
   - "Claro que sim! Algu\xE9m havia de ficar de guarda"
   - "considerando essa posi\xE7\xE3o de alta \r\nimport\xE2ncia estrat\xE9gica."
   - "N\xE3o havia pensado nisso.\r"
