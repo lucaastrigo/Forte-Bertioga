@@ -41,9 +41,8 @@ public class Interativo : MonoBehaviour
                 {
                     dialogoUI.GetComponent<DialogoUI>().MostrarDialogo(hit.collider.GetComponent<Interativo>().m_textoDialogo, nomeJigador);
 
-                    aud.PlayOneShot(clip);
-                    print(aud);
-                    print("asaas");
+                    aud.PlayOneShot(hit.collider.GetComponent<Interativo>().clip);
+           
                 }
             }
         }
